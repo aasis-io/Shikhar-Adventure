@@ -19,7 +19,7 @@ include('navbar.php');
 					<span class="text">Journey Towards Top of the World</span>
 					<h2>
 						Everest Base Camp Trek </h2>
-					<a href="#" class="button">Explore<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="#" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -31,7 +31,7 @@ include('navbar.php');
 					<h2>
 						Mardi Himal Trek
 					</h2>
-					<a href="ebc-trek.php" class="button">Explore<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="ebc-trek.php" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@ include('navbar.php');
 					<h2>
 						Annapurna Base Camp Trek
 					</h2>
-					<a href="#" class="button">Explore<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="#" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -55,7 +55,7 @@ include('navbar.php');
 					<h2>
 						Nepal Wildlife Tour
 					</h2>
-					<a href="#" class="button">Explore<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="#" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -68,7 +68,7 @@ include('navbar.php');
 					<h2>
 						Nepal Heritage Tour
 					</h2>
-					<a href="#" class="button">Explore<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="#" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -201,13 +201,14 @@ include('navbar.php');
 <section class="about-intro">
 	<div class="container">
 		<div class="about-title">
-			<h5>Welcome To</h5>
-			<h3>Outdoor Activities in <strong>Nepal, Tibet and Bhutan</strong></h3>
+			<h3>Welcome To <strong>Shikhar Adventure</strong></h5>
 		</div>
 		<div class="about-text">
 			<p>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse in sit ipsum ab nam eveniet repellendus deserunt accusamus dignissimos aliquid doloremque, fugit cumque laudantium ipsa consequuntur molestiae cupiditate nesciunt vero.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nostrum nihil incidunt, qui dignissimos, veritatis iste dicta consectetur numquam et harum alias at totam itaque quod doloribus sed! Obcaecati, nihil.
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse in sit ipsum ab nam eveniet repellendus
+				deserunt accusamus dignissimos aliquid doloremque, fugit cumque laudantium ipsa consequuntur
+				molestiae cupiditate nesciunt vero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Odit nostrum nihil incidunt, qui dignissimos, veritatis iste dicta consectetur numquam et harum alias at totam itaque quod doloribus sed! Obcaecati, nihil.
 			</p>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quae soluta velit maxime quibusdam totam iure sint perspiciatis nisi voluptatum, fugit odit corrupti dignissimos provident architecto omnis accusantium
@@ -380,12 +381,89 @@ include('navbar.php');
 	</div>
 </section>
 
+<!-- E-NEWSLETTER -->
+
+<section class="e-news">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-sm-12">
+				<div class="e-text">
+					<span class="e-title">Stay Updated</span>
+					<p class="e-body">Never miss out on exciting updates—subscribe to our e-newsletter today!</p>
+				</div>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-sm-12">
+				<div class="e-form">
+					<form action="" method="post">
+						<input type="email" name="" id="" placeholder="Enter your e-mail here!">
+						<button type="submit"><span><i class="fa-regular fa-envelope"></i> Subscribe</span></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 <!--Featureds Trip-->
 
+<section class="featured">
+	<div class="container">
+		<div class="title-box">
+			<span class="title">Featured <strong>Ventures</strong></span>
+		</div>
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-sm-12">
+				<div class="ft-container">
+					<a href="#" class="ft-img">
+						<img class="image" src="images/upper.jpg" alt="Mt Fishtail" />
+					</a>
+					<div class="content">
+						<div class="ft-detail">
+							<div class="price">
+								<i class="fa-solid fa-tags"></i>
+								<span>$1735</span>
+							</div>
+							<div class="time">
+								<i class="fa-solid fa-calendar-days"></i>
+								<span>10 Days</span>
+							</div>
+						</div>
+						<span class="title">Upper Mustang Trek</span>
+						<div class="learn-more"><a href="" class="">Explore Package <i class="fa-solid fa-arrow-right"></i></a></div>
+					</div>
+				</div>
 
+			</div>
+			<div class="col-xl-6 col-lg-6 col-sm-12">
+				<div class="ft-container">
+					<a href="#" class="ft-img">
+						<img class="image" src="images/featured-6.jpg" alt="Mt Fishtail" />
+					</a>
+					<div class="content">
+						<div class="ft-detail">
+							<div class="price">
+								<i class="fa-solid fa-tags"></i>
+								<span>$8999</span>
+							</div>
+							<div class="time">
+								<i class="fa-solid fa-calendar-days"></i>
+								<span>14 Days</span>
+							</div>
+						</div>
+						<span class="title">Upper Mustang Trek</span>
+						<div class="learn-more"><a href="" class="">Explore Package <i class="fa-solid fa-arrow-right"></i></a></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
 <!--Featureds Trip End-->
+
+
+
 
 
 
@@ -393,10 +471,9 @@ include('navbar.php');
 
 <section class="footer">
 	<div class="container">
-
 		<div class="contact-links">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6">
 					<div class="contact-details">
 						<span class="title">Office Contact Details</span>
 						<div class="contact-list">
@@ -410,7 +487,7 @@ include('navbar.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 img-links">
+				<div class="col-lg-4 col-md-6 img-links">
 					<div class="row">
 						<div class="association-title"><span class="title">We Are Associated With</span></div>
 						<div class="image-wrap">
@@ -430,16 +507,17 @@ include('navbar.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="enews-letter">
-						<div class="newsletter-form">
-							<form action="" method="post">
-								<span class="title">Subscribe to Newsletter</span>
-								<input type="text" name="fullName" id="" placeholder="Full Name">
-								<input type="email" name="email" id="" placeholder="Email Here">
-								<button type="submit">Subscribe</button>
-							</form>
-						</div>
+				<div class="col-lg-4 col-md-12">
+					<div class="quick-title">
+						<span class="title">Quick Links</span>
+					</div>
+					<div class="quick-links">
+						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> About Us</a>
+						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> Trekking in Nepal</a>
+						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> Is Nepal Safe for Travel?</a>
+						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> About Us</a>
+						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> About Us</a>
+
 					</div>
 				</div>
 			</div>

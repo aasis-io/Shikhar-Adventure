@@ -113,10 +113,9 @@ const swiperT = new Swiper('.swiperTest', {
 	autoHeight: true,
 	loop: true,
 
-	// If we need pagination
-	// pagination: '.swiper-pagination',
-	// pagination: '.swiper-pagination2',
-	// paginationClickable: true,
+	autoplay: {
+		delay: 5000,
+	},
 
 
 	pagination: {
