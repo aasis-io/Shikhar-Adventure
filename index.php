@@ -8,7 +8,7 @@ include('navbar.php');
 
 <!-- --------------Navbar End-------------- -->
 
-<!-- --------------Section Swiper Start-------------- -->
+<!-- --------------Swiper Start-------------- -->
 
 <section class="main swiper mySwiper">
 	<div class="wrapper swiper-wrapper">
@@ -16,10 +16,10 @@ include('navbar.php');
 			<img src="images/banner-7.jpg" alt="" class="image" />
 			<div class="image-data">
 				<div class="container">
-					<span class="text">Journey Towards Top of the World</span>
+					<span class="text">Journey to the base camp of Mount Everest</span>
 					<h2>
 						Everest Base Camp Trek </h2>
-					<a href="#" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="#" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -31,7 +31,7 @@ include('navbar.php');
 					<h2>
 						Mardi Himal Trek
 					</h2>
-					<a href="ebc-trek.php" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="ebc-trek.php" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@ include('navbar.php');
 					<h2>
 						Annapurna Base Camp Trek
 					</h2>
-					<a href="#" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="#" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -55,7 +55,7 @@ include('navbar.php');
 					<h2>
 						Nepal Wildlife Tour
 					</h2>
-					<a href="#" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="#" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -68,7 +68,7 @@ include('navbar.php');
 					<h2>
 						Nepal Heritage Tour
 					</h2>
-					<a href="#" class="button">In Detail<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="#" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -79,7 +79,7 @@ include('navbar.php');
 
 </section>
 
-<!-- --------------Section Swiper End---------------->
+<!-- --------------Venture Start---------------->
 <section class="venture">
 	<div class="container">
 		<div class="venture-title">
@@ -284,7 +284,7 @@ include('navbar.php');
 					<li class="swiper-slide">
 						<div class="wrapper">
 							<div class="thumbnail">
-								<img src="images/image1.jpg" alt="" />
+								<img src="images/profile-1.jpg" alt="" />
 							</div>
 							<div class="aside">
 								<p>
@@ -293,7 +293,7 @@ include('navbar.php');
 									ipsum, vero nostrum consequuntur.
 								</p>
 								<div class="name">
-									<h4>John Doe</h4>
+									<h4>Gigi Hadid</h4>
 									<p>Cupertino, U.S.A</p>
 								</div>
 							</div>
@@ -381,31 +381,9 @@ include('navbar.php');
 	</div>
 </section>
 
-<!-- E-NEWSLETTER -->
-
-<section class="e-news">
-	<div class="container">
-		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-sm-12">
-				<div class="e-text">
-					<span class="e-title">Stay Updated</span>
-					<p class="e-body">Never miss out on exciting updates—subscribe to our e-newsletter today!</p>
-				</div>
-			</div>
-			<div class="col-xl-6 col-lg-6 col-sm-12">
-				<div class="e-form">
-					<form action="" method="post">
-						<input type="email" name="" id="" placeholder="Enter your e-mail here!">
-						<button type="submit"><span><i class="fa-regular fa-envelope"></i> Subscribe</span></button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 
-<!--Featureds Trip-->
+<!--Featured Trips-->
 
 <section class="featured">
 	<div class="container">
@@ -451,7 +429,7 @@ include('navbar.php');
 								<span>14 Days</span>
 							</div>
 						</div>
-						<span class="title">Upper Mustang Trek</span>
+						<span class="title">Marriage in Everest Base Camp</span>
 						<div class="learn-more"><a href="" class="">Explore Package <i class="fa-solid fa-arrow-right"></i></a></div>
 					</div>
 				</div>
@@ -462,66 +440,132 @@ include('navbar.php');
 </section>
 <!--Featureds Trip End-->
 
-
-
-
-
-
-<!----------Footer section-------->
-
-<section class="footer">
+<!-- E-NEWSLETTER -->
+<section class="e-news">
 	<div class="container">
-		<div class="contact-links">
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="contact-details">
-						<span class="title">Office Contact Details</span>
-						<div class="contact-list">
-							<span class="list">G.P.O. 6845, Thamel</span>
-							<span class="list">Kathmandu, Nepal</span>
-							<span class="list">Call/WhatsApp</span>
-							<span class="list">Ashish Thapa</span>
-							<span class="list">+977 9840033688</span>
-							<span class="list">info@shikharadventure.com</span>
-
-						</div>
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-sm-12">
+				<div class="e-text">
+					<span class="e-title">Stay Updated</span>
+					<p class="e-body">Never miss out on exciting updates—subscribe to our e-newsletter today!</p>
+				</div>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-sm-12">
+				<div class="e-form">
+					<form action="" method="post">
+						<input type="email" name="" id="" placeholder="Enter your e-mail here!">
+						<button type="submit"><span><i class="fa-regular fa-envelope"></i> Subscribe</span></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Recent Post Start -->
+<section class="blog">
+	<div class="container">
+		<div class="blog-title">
+			<span class="title">Recent <strong>Posts</strong></span>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="blog-card">
+					<div class="blog-header">
+						<a href="" class="blog-image"><img src="images/blog-1.jpg" alt="rover" /></a>
+					</div>
+					<div class="bl-title">
+						<span class="title">
+							Hidden gem in the Annapurna region
+						</span>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, corporis!</p>
+					</div>
+					<div class="more">
+						<span class="tag">May 11, 2023</span>
+						<a href="" class="read-more">Read More</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 img-links">
-					<div class="row">
-						<div class="association-title"><span class="title">We Are Associated With</span></div>
-						<div class="image-wrap">
-							<span class="image-link"><a href=""><img src="images/NEPAL-logo.jpg" alt=""></a></span>
-							<span class="image-link"><a href=""><img src="images/TAAN-logo.jpg" alt=""></a></span>
-							<span class="image-link"><a href=""><img src="images/NTB-logo.jpg" alt=""></a></span>
-							<span class="image-link"><a href=""><img src="images/NMA-logo.jpg" alt=""></a></span>
-						</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="blog-card">
+					<div class="blog-header">
+						<a href="" class="blog-image"><img src="images/blog-3.jpg" alt="rover" /></a>
 					</div>
-					<div class="row">
-						<div class="social-title"><span class="title">SOCIAL MEDIA</span></div>
-						<div class="socials">
-							<span class="social-links"><a href=""><img src="images/facebook.png" alt=""></a></span>
-							<span class="social-links"><a href=""><img src="images/twitter.png" alt=""></a></span>
-							<span class="social-links"><a href=""><img src="images/youtube.png" alt=""></a></span>
-							<span class="social-links"><a href=""><img src="images/instagram.png" alt=""></a></span>
-						</div>
+					<div class="bl-title">
+						<span class="title">
+							Lost into the serenety of Mardi Himal
+						</span>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, illo?</p>
+					</div>
+					<div class="more">
+						<span class="tag">April 29, 2023</span>
+						<a href="" class="read-more">Read More</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-12">
-					<div class="quick-title">
-						<span class="title">Quick Links</span>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="blog-card">
+					<div class="blog-header">
+						<a href="" class="blog-image"><img src="images/blog-4.jpg" alt="rover" /></a>
 					</div>
-					<div class="quick-links">
-						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> About Us</a>
-						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> Trekking in Nepal</a>
-						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> Is Nepal Safe for Travel?</a>
-						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> About Us</a>
-						<a class="links" href=""><i class="fa-solid fa-chevron-right"></i> About Us</a>
-
+					<div class="bl-title">
+						<span class="title">
+							Everest Base Camp Trek Guide
+						</span>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, obcaecati?</p>
+					</div>
+					<div class="more">
+						<span class="tag">April 19, 2023</span>
+						<a href="" class="read-more">Read More</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="see-more"> <a href="">Load More <i class="fa-solid fa-arrow-right"></i></a>
+		</div>
+	</div>
+</section>
+<!-- Recent Post End -->
+
+
+<!----------Footer section-------->
+
+<footer class="footer-ft">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="ct-detail">
+					<div class="ct-title">
+						<h4>Contact Us</h4>
+					</div>
+					<span class="contact"><ion-icon name="home"></ion-icon> Thamel, Kathmandu, Nepal</span>
+					<span class="contact"><ion-icon name="call"></ion-icon> WhatsApp/Viber (24/7)</span>
+					<span class="contact">+977 9840033688(Ashish)</span>
+					<span class="contact">+977 9841869254(Dambar)</span>
+					<span class="contact"><i class="fa-solid fa-envelope"></i> info@shikharadventure.com</span>
+					<span class="contact">helloshikharadventure@gmail.com</span>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="at-title"><span class="title">Associated To:</span></div>
+				<div class="at-link">
+					<span class="link"><img src="images/NTB-logo.jpg" alt=""></span>
+					<span class="link"><img src="images/NEPAL-logo.jpg" alt=""></span>
+					<span class="link"><img src="images/TAAN-logo.jpg" alt=""></span>
+					<span class="link"><img src="images/NMA-logo.jpg" alt=""></span>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="social-title"><span class="title">Find Us On:</span></div>
+				<div class="sl-link">
+					<span class="link"><a href=""><img src="images/trip-advisor.png" alt=""></a></span>
+					<span class="link"><a href=""><img src="images/facebook.png" alt=""></a></span>
+					<span class="link"><a href=""><img src="images/instagram.png" alt=""></a></span>
+					<span class="link"><a href=""><img src="images/reddit.png" alt=""></a></span>
+
+				</div>
+			</div>
+		</div>
+		<hr>
 		<div class="trademark">
 			<div class="row">
 				<div class="col-md-6">
@@ -538,14 +582,14 @@ include('navbar.php');
 				<div class="col-md-6">
 					<div class="designed-by">
 						<span class="designed-txt">
-							Sketched by <a href="">Ashish Thapa</a>
+							Sketched by: <a href="">Ashish Thapa</a>
 						</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
+</footer>
 
 
 <!-- Progress Bar -->
@@ -553,6 +597,10 @@ include('navbar.php');
 <div id="progress">
 	<span id="progress-value"><i class="fa-solid fa-chevron-up"></i></span>
 </div>
+
+<!-- <div class="" id="message">
+<span id="message-icon"><i class="fa-brands fa-facebook-messenger"></i></span>
+</div> -->
 
 
 
