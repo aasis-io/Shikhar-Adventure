@@ -93,6 +93,9 @@ document.addEventListener('click', function (event) {
 var swiper = new Swiper(".mySwiper", {
 	allowTouchMove: false,
 	speed: 1000,
+	autoplay: {
+		delay: 5000,
+	},
 	effect: "fade",
 	fadeEffect: {
 		crossFade: false

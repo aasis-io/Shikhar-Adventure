@@ -19,7 +19,7 @@ include('navbar.php');
 					<span class="text">Journey to the base camp of Mount Everest</span>
 					<h2>
 						Everest Base Camp Trek </h2>
-					<a href="#" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="single.php" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@ include('navbar.php');
 					<h2>
 						Annapurna Base Camp Trek
 					</h2>
-					<a href="#" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
+					<a href="abc.php" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -91,6 +91,8 @@ include('navbar.php');
 					<a href="#" class="vt-image">
 						<img class="image" src="images/featured-2.jpg" alt="Mt Fishtail" />
 					</a>
+
+
 					<main class="main-content">
 						<div class="flex-row">
 							<div class="coin-base">
@@ -108,6 +110,7 @@ include('navbar.php');
 					<div class="vt-more">
 						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
 					</div>
+
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-sm-12">
@@ -136,7 +139,7 @@ include('navbar.php');
 			</div>
 			<div class="col-xl-6 col-lg-6 col-sm-12">
 				<div class="vt-card">
-					<a href="#" class="vt-image">
+					<a href="single.php" class="vt-image">
 						<img class="image" src="images/featured-4.jpg" alt="View of Mt Everest" />
 					</a>
 					<main class="main-content">
@@ -150,17 +153,17 @@ include('navbar.php');
 								<h2>15 Days</h2>
 							</div>
 						</div>
-						<h1><a href="#">Everest Base Camp Trek</a></h1>
+						<h1><a href="single.php">Everest Base Camp Trek</a></h1>
 
 					</main>
 					<div class="vt-more">
-						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
+						<a href="single.php" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-sm-12">
 				<div class="vt-card">
-					<a href="#" class="vt-image">
+					<a href="abc.php" class="vt-image">
 						<img class="image" src="images/featured-5.jpg" alt="Annapurna Base Camp" />
 					</a>
 					<main class="main-content">
@@ -178,7 +181,7 @@ include('navbar.php');
 
 					</main>
 					<div class="vt-more">
-						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
+						<a href="abc.php" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -198,7 +201,7 @@ include('navbar.php');
 </div>
 
 <!--**About Us**-->
-<section class="about-intro">
+<!-- <section class="about-intro">
 	<div class="container">
 		<div class="about-title">
 			<h3>Welcome To <strong>Shikhar Adventure</strong></h5>
@@ -210,15 +213,7 @@ include('navbar.php');
 				molestiae cupiditate nesciunt vero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
 				Odit nostrum nihil incidunt, qui dignissimos, veritatis iste dicta consectetur numquam et harum alias at totam itaque quod doloribus sed! Obcaecati, nihil.
 			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quae soluta velit maxime quibusdam totam iure sint perspiciatis nisi voluptatum, fugit odit corrupti dignissimos provident architecto omnis accusantium
-				blanditiis eligendi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque illo minima iure ut, corrupti deleniti facilis delectus porro, itaque inventore officia ab ipsa, expedita numquam nesciunt vero soluta consequatur obcaecati?
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nostrum nihil incidunt, qui dignissimos, veritatis iste dicta consectetur numquam et harum alias at totam itaque quod doloribus sed! Obcaecati, nihil.
-			</p>
-			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat consequuntur, beatae illo tempore eligendi soluta ullam ipsa perspiciatis dolorem molestias quasi, expedita laudantium provident similique
-				veniam ab consectetur? Minus, cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat eius tenetur. Ut dicta magnam tempora porro? Quibusdam enim labore, quos officia molestiae autem atque voluptas recusandae repudiandae voluptate veritatis.
-			</p>
+
 			<p>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae numquam reiciendis fugit repudiandae saepe reprehenderit eum. Dicta, accusantium. Sapiente incidunt nobis blanditiis expedita nihil. Ad consequatur repudiandae obcaecati cupiditate facere.
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum atque cupiditate dolores consequatur eligendi rem porro ab laboriosam cum necessitatibus error facilis, ipsa laudantium nulla! Consequatur totam sint exercitationem commodi.
@@ -232,8 +227,43 @@ include('navbar.php');
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
+<!-- My Intro Section -->
+
+<section class="my-intro">
+	<div class="container">
+		<div class="wl-title"><span class="my-title">Welcome To</span>
+			<span class="sh-title">
+				Shikhar Adventure
+			</span>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="intro-card">
+					<div class="my-title"> <span class="wc-title">About Us</span>
+					</div>
+					<span class="title">Find your Dream <strong>Venture</strong></span>
+					<p class="intro-text">Shikhar Adventure is a premier adventure company
+						specializing in thrilling experiences in Nepal, Tibet, and Bhutan.
+						Our expert guides curate unique expeditions that cater to all levels
+						of adventurers. With a focus on safety and sustainability, we offer
+						unforgettable journeys that combine outdoor activities with cultural
+						immersion. Join us as we explore the majestic Himalayas and create
+						lifelong memories. Choose Shikhar Adventure for your next
+						adventure!
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem qui nobis saepe eveniet vel. Veniam, culpa error eos quae impedit suscipit libero quaerat amet facilis blanditiis quasi iusto, minus labore?</p>
+					<div class="intro-more"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="img-box">
+					<img src="images/abc-trek.JPG" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <!--* ==========================Top Destinaitons======================================= -->
 <section class="top-box">
@@ -384,7 +414,6 @@ include('navbar.php');
 
 
 <!--Featured Trips-->
-
 <section class="featured">
 	<div class="container">
 		<div class="title-box">
@@ -472,6 +501,8 @@ include('navbar.php');
 				<div class="blog-card">
 					<div class="blog-header">
 						<a href="" class="blog-image"><img src="images/blog-1.jpg" alt="rover" /></a>
+						<!-- <div class="overlay"> <span class="class">Trekking</span>
+						</div> -->
 					</div>
 					<div class="bl-title">
 						<span class="title">
@@ -489,6 +520,7 @@ include('navbar.php');
 				<div class="blog-card">
 					<div class="blog-header">
 						<a href="" class="blog-image"><img src="images/blog-3.jpg" alt="rover" /></a>
+
 					</div>
 					<div class="bl-title">
 						<span class="title">
@@ -506,6 +538,7 @@ include('navbar.php');
 				<div class="blog-card">
 					<div class="blog-header">
 						<a href="" class="blog-image"><img src="images/blog-4.jpg" alt="rover" /></a>
+
 					</div>
 					<div class="bl-title">
 						<span class="title">
@@ -529,74 +562,7 @@ include('navbar.php');
 
 <!----------Footer section-------->
 
-<footer class="footer-ft">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="ct-detail">
-					<div class="ct-title">
-						<h4>Contact Us</h4>
-					</div>
-					<span class="contact"><ion-icon name="home"></ion-icon> Thamel, Kathmandu, Nepal</span>
-					<span class="contact"><ion-icon name="call"></ion-icon> WhatsApp/Viber (24/7)</span>
-					<span class="contact">+977 9840033688(Ashish)</span>
-					<span class="contact">+977 9841869254(Dambar)</span>
-					<span class="contact"><i class="fa-solid fa-envelope"></i> info@shikharadventure.com</span>
-					<span class="contact">helloshikharadventure@gmail.com</span>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="at-title"><span class="title">Associated To:</span></div>
-				<div class="at-link">
-					<span class="link"><img src="images/NTB-logo.jpg" alt=""></span>
-					<span class="link"><img src="images/NEPAL-logo.jpg" alt=""></span>
-					<span class="link"><img src="images/TAAN-logo.jpg" alt=""></span>
-					<span class="link"><img src="images/NMA-logo.jpg" alt=""></span>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="social-title"><span class="title">Find Us On:</span></div>
-				<div class="sl-link">
-					<span class="link"><a href=""><img src="images/trip-advisor.png" alt=""></a></span>
-					<span class="link"><a href=""><img src="images/facebook.png" alt=""></a></span>
-					<span class="link"><a href=""><img src="images/instagram.png" alt=""></a></span>
-					<span class="link"><a href=""><img src="images/reddit.png" alt=""></a></span>
 
-				</div>
-			</div>
-		</div>
-		<hr>
-		<div class="trademark">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="copyright">
-						<span class="copyright-txt">
-							&copy; 2018-<script>
-								const currentYear = new Date().getFullYear();
-								document.write(currentYear);
-							</script> | Shikhar Adventure | All Rights Reserved
-						</span>
-					</div>
-				</div>
-
-				<div class="col-md-6">
-					<div class="designed-by">
-						<span class="designed-txt">
-							Sketched by: <a href="">Ashish Thapa</a>
-						</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
-
-
-<!-- Progress Bar -->
-
-<div id="progress">
-	<span id="progress-value"><i class="fa-solid fa-chevron-up"></i></span>
-</div>
 
 <!-- <div class="" id="message">
 <span id="message-icon"><i class="fa-brands fa-facebook-messenger"></i></span>

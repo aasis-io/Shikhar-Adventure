@@ -55,7 +55,7 @@
                         <li class="dropdown-submenu">
                             <a href="#">Everest Trekking<span class="fa-solid fa-chevron-right"></span></a>
                             <ul class="dropdown-submenu-menu">
-                                <li><a href="#">Everest Base Camp Trek</a></li>
+                                <li><a href="single.php">Everest Base Camp Trek</a></li>
                                 <li><a href="#">Gokyo Valley Trek</a></li>
                                 <li><a href="#">Everest View Trek</a></li>
                             </ul>
@@ -64,7 +64,7 @@
                             <a href="#">Annapurna Trekking<span class="fa-solid fa-chevron-right"></span></a>
                             <ul class="dropdown-submenu-menu">
                                 <li><a href="#">Ghorepani Poonhill Trek</a></li>
-                                <li><a href="#">Annapurna Base Camp Trek</a></li>
+                                <li><a href="abc.php">Annapurna Base Camp Trek</a></li>
                                 <li><a href="#">Mardi Himal Trek</a></li>
                             </ul>
                         </li>
