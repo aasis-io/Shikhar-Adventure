@@ -141,6 +141,12 @@ const swiperT = new Swiper('.swiperTest', {
 
 
 
+// const btn = document.getElementById('toggleItinerary');
+// const div = document.querySelectorAll('.itinerary-text');
+
+// btn.addEventListener('click', () => {
+// 	div.forEach(div => div.classList.toggle('expand'));
+// })
 
 
 let calcScrollValue = () => {

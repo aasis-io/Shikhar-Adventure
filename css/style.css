@@ -876,11 +876,6 @@ a.button:hover {
   text-align: center;
 }
 
-.vt-card main h1 a {
-  color: var(--accent);
-  font-size: 1.5rem;
-}
-
 .vt-card main div.flex-row {
   display: flex;
   justify-content: center;
@@ -1831,7 +1826,7 @@ section.e-news .e-form form button span {
 /* ============================ Section Footer===================================== */
 
 .footer-ft {
-  margin: 4rem 0;
+  /* margin: 4rem 0; */
   background: var(--accent);
   padding: 4rem 0 1rem 0;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
@@ -1982,6 +1977,11 @@ section.e-news .e-form form button span {
 }
 
 /* SINGLE CSS */
+
+.voyage-box {
+  background: var(--bg);
+  padding: 2rem 0 0 0;
+}
 .voyage-box .container {
   max-width: 1300px;
 }
@@ -1992,7 +1992,7 @@ section.e-news .e-form form button span {
 }
 
 .voyage-box .title {
-  margin: 2rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .voyage-box .title .th-title {
@@ -2058,9 +2058,11 @@ section.e-news .e-form form button span {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
   margin: 0 0 15px;
   padding: 15px 12px;
+  border: 1px solid #e1e1e1;
 }
 .package-intro {
   margin: 0 0 20px;
+  padding: 30px 25px;
 }
 @media (min-width: 768px) {
   .package-bound {
@@ -2105,7 +2107,7 @@ section.e-news .e-form form button span {
 }
 @media (min-width: 992px) {
   .package-facts .facts-list li {
-    padding: 0 0 15px 20px;
+    padding: 0 0 25px 20px;
   }
 }
 
@@ -2126,149 +2128,13 @@ section.e-news .e-form form button span {
   left: 0;
   position: absolute;
 }
+
 .package-facts .facts-list dl dd {
   margin: 0;
 }
 
-.price-box {
-  width: 100%;
-  background: var(--primary);
-  line-height: 1;
-  margin: 0 0 25px;
-  position: relative;
-  z-index: 1;
-  padding: 17px 20px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
-}
-
-.price-box .price-tag {
-  text-align: center;
-  margin-top: 8px;
-}
-.price-box .price-tag .pr-title {
-  font-weight: 600;
-  display: block;
-  margin: 0 0 5px;
-  color: var(--white);
-}
-.price-box .price-tag sup {
-  font-weight: 700;
-  font-size: 18px;
-  top: -0.5em;
-  vertical-align: baseline;
-  color: var(--white);
-}
-.price-box .price-tag strong {
-  display: inline-block;
-  vertical-align: baseline;
-  font-size: 40px;
-  padding: 0 2px;
-  color: var(--white);
-}
-
-.price-box .book-btn {
-  margin: 24px 8px 16px 8px;
-}
-
-.price-box .book-btn ul {
-  text-align: center;
-}
-.price-box .book-btn ul li {
-  width: 100%;
-  background: var(--blue);
-  margin: 16px 0;
-}
-.price-box .book-btn ul li:last-child {
-  background: var(--white);
-  color: var(--dark-clr);
-}
-.price-box .book-btn ul li a {
-  display: block;
-  width: 100%;
-  padding: 1rem 0;
-  color: #fff;
-  font-weight: 500;
-  transition: 0.4s ease;
-}
-.price-box .book-btn ul li:last-child a {
-  color: var(--dark-clr);
-}
-.price-box .book-btn ul li a:hover i {
-  transform: translateX(3px);
-}
-
-.price-box .book-btn ul li a i {
-  font-size: 13px;
-  transition: 0.5s ease;
-}
-
-@media (max-width: 1200px) {
-  .price-box {
-    padding: 18px;
-  }
-  .price-box .price-tag strong {
-    font-size: 32px;
-  }
-  .price-box .book-btn {
-    margin: 0.8rem 0rem;
-  }
-  .price-box .book-btn ul li {
-    margin: 0.8rem 0;
-  }
-}
-
-aside.it-link {
-  margin: 2rem 0;
-}
-
-.it-link ul {
-  display: flex;
-}
-
-.it-link ul {
-  display: flex;
-  gap: 0.5rem;
-  position: relative;
-}
-.it-link ul li {
-  position: relative;
-  line-height: 60px;
-}
-
-.it-link ul li a {
-  font-size: 1rem;
-  font-weight: 500;
-  padding: 1rem 2rem;
-  background: var(--bg);
-  color: var(--dark-clr);
-  transition: 0.5s ease;
-  text-transform: uppercase;
-}
-.it-link ul li a:hover {
-  background: var(--orange);
-  color: var(--white);
-}
-
-.it-link ul li.active a {
-  color: var(--white);
-  background: var(--orange);
-}
-.it-link ul li.active::after {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 86px;
-  margin: 0;
-  width: 16px;
-  height: 16px;
-  transform: rotate(45deg);
-  background: var(--orange);
-}
-@media screen and (max-width: 1200px) {
-  .it-link ul li a {
-    font-size: 1rem;
-    padding: 0.8rem 1rem;
-  }
+.package-facts .facts-list dl dd a i {
+  color: var(--primary);
 }
 
 @media screen and (min-width: 1200px) {
@@ -2287,23 +2153,104 @@ aside.it-link {
   }
 }
 
-@media screen and (max-width: 992px) {
-  .it-link {
-    display: none;
-  }
+.book-wrap {
+  padding: 17px 16px 18px 16px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 1200px) {
-  .it-link ul li.active::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 66px;
-    margin: 0;
-    width: 12px;
-    height: 12px;
-    transform: rotate(45deg);
-    background: var(--orange);
+.book-wrap .my-price {
+  /* margin: 0 0 0 32px; */
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.book-wrap .my-price span {
+  display: block;
+  font-size: 20px;
+  padding: 0 2px;
+  position: relative;
+  bottom: 0.4em;
+  font-weight: 600;
+  color: var(--gray-dark);
+}
+.book-wrap .my-price sup {
+  font-weight: 700;
+  font-size: 17px;
+  top: -0.5em;
+  vertical-align: baseline;
+}
+
+.book-wrap .my-price strong {
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 40px;
+  padding: 0 2px;
+}
+
+.book-wrap .my-price sub {
+  font-weight: 700;
+  font-size: 17px;
+  bottom: 0.4em;
+}
+
+.book-wrap ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  /* margin-right: 4rem; */
+}
+.book-wrap ul li {
+  line-height: 45px;
+  width: 100%;
+  text-align: center;
+}
+
+.book-wrap ul li a {
+  font-weight: 500;
+  padding: 6px;
+  border-radius: 4px;
+  background: var(--primary);
+  color: var(--white);
+  border: 3px solid var(--primary);
+  transition: 0.4s ease;
+  display: block;
+  width: 100%;
+}
+.book-wrap ul li a i {
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+.book-wrap ul li:last-child a {
+  background: var(--white);
+  color: var(--gray-dark);
+}
+
+.book-wrap ul li a:hover {
+  background: var(--orange);
+  /* color: var(--white); */
+  border: 3px solid var(--orange);
+}
+.book-wrap ul li a:hover i {
+  transform: translateX(2px);
+}
+
+@media (max-width: 1200px) {
+  .book-wrap ul li {
+    line-height: 32px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .book-wrap {
+    padding: 16px 16px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 }
 
@@ -2323,6 +2270,402 @@ aside.it-link {
   margin-bottom: 40px;
 }
 
-.about-trip .text-box p b{
- font-size: 1.1rem;
+.about-trip .text-box p {
+  font-size: 15.5px;
+  color: var(--gray-dark);
+}
+.about-trip .text-box p b {
+  font-size: 16px;
+}
+
+.page-right .trip-info {
+  border: 1px solid #e1e1e1;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.page-right .trip-info h3 {
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.page-right .trip-info h3::before {
+  position: absolute;
+  left: -20px;
+  right: -20px;
+  bottom: 0;
+  top: 0;
+  content: "";
+  display: inline-block;
+  z-index: -1;
+  background-color: #0e76bc;
+  border-radius: 0;
+}
+.page-right .trip-info h3:after {
+  position: absolute;
+  left: -20px;
+  top: 100%;
+  content: "";
+  border-right: 210px solid transparent;
+  border-top: 8px solid #f7941e;
+}
+.trip-info ul {
+  padding: 0;
+  margin: -10px 0;
+}
+.trip-info ul li {
+  list-style: none;
+  border-top: 1px solid #e1e1e1;
+}
+
+.trip-info ul li:first-child {
+  border-top: 0;
+}
+.trip-info ul li a {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+  display: block;
+  padding: 12px 0 12px 22px;
+  position: relative;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.trip-info ul li a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.trip-info ul li a:before {
+  content: "\f178";
+  display: inline-block;
+  font-weight: normal;
+  font-family: "FontAwesome";
+  top: 15px;
+  position: absolute;
+  left: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.page-right .enquiry {
+  margin-top: 2rem;
+  border: 1px solid #e1e1e1;
+  padding: 25px 25px 0px 25px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.page-right .enquiry h3 {
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.page-right .enquiry h3::before {
+  position: absolute;
+  left: -20px;
+  right: -20px;
+  bottom: 0;
+  top: 0;
+  content: "";
+  display: inline-block;
+  z-index: -1;
+  background-color: #0e76bc;
+  border-radius: 0;
+}
+.page-right .enquiry h3:after {
+  position: absolute;
+  left: -20px;
+  top: 100%;
+  content: "";
+  border-right: 210px solid transparent;
+  border-top: 8px solid #f7941e;
+}
+
+.page-right .enquiry form {
+  padding-top: 10px;
+}
+.page-right .enquiry form .row {
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.page-right .enquiry form .textarea {
+  height: 100%;
+}
+
+.page-right .enquiry form textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.page-right .enquiry .row textarea::placeholder {
+  color: #999;
+}
+.page-right .enquiry form .row input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.page-right .enquiry .row input:focus {
+  border-color: #3232326c;
+  box-shadow: inset 0px 0px 2px 2px rgba(172, 172, 172, 0.25);
+}
+.page-right .enquiry .row input::placeholder {
+  color: #999;
+}
+.page-right .enquiry form .row i {
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: var(--gray-dark);
+  font-size: 18px;
+  background: var(--bg);
+  border: 1px solid lightgrey;
+  border-radius: 3px 0 0 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-right .enquiry form .button input {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: rgb(255, 115, 0);
+  border: 1px solid rgb(255, 115, 0);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.page-right .enquiry form .button input:hover {
+  border-color: var(--primary);
+  background: var(--primary);
+}
+
+.similar-pack {
+  margin-top: 2rem;
+}
+
+.similar-pack .pack-title {
+  line-height: 1;
+}
+
+.similar-pack .pack-title h3 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--gray-dark);
+}
+
+.pack-card {
+  width: 100%;
+  max-width: 360px;
+  margin: 0.2em auto;
+  background-color: var(--white);
+  /* border-radius: 15px; */
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.5s ease-in-out;
+}
+.pack-card .pack-ct {
+  text-align: center;
+}
+
+.pack-card main div.pack-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.pack-card main div.pack-price-d {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0;
+}
+
+.pack-card main div.pack-row .pack-price-d {
+  margin: 0 1rem;
+}
+
+.pack-card main div.pack-row .pack-price-d h2 {
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+.pack-card main h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pack-card .pack-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+.pack-card .pack-more a {
+  background: var(--primary);
+  font-size: 14px;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.pack-card .pack-more a i {
+  font-size: 11px;
+  margin-left: 4px;
+  transition: 0.4s ease-in-out;
+}
+
+.pack-card .pack-more a:hover {
+  background: rgb(15, 73, 112);
+  color: white;
+}
+
+.pack-card .pack-more a:hover i {
+  transform: translate(2px, 0);
+}
+
+a.pack-image {
+  position: relative;
+  display: block;
+}
+
+a.pack-image .image {
+  width: 100%;
+}
+
+.pack-image::after {
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 5rem;
+  background-color: hsla(0, 0%, 0%, 0.151);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.pack-image:hover::after {
+  opacity: 1;
+}
+
+.pack-card main .pack-row i {
+  width: 1.2em;
+  margin-right: 0.5em;
+}
+
+.itinerary-wrap {
+  margin: 1rem 0;
+}
+
+.itinerary-wrap .it-title h3 {
+  font-weight: 600;
+  color: var(--dark-clr);
+}
+
+.itinerary-wrap .inner-wrap {
+  border: 1px solid #e1e1e1;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.itinerary-wrap .inner-wrap .itinerary-main {
+  margin: 0;
+  padding: 0;
+}
+.itinerary-main .itinerary {
+  border: none;
+  box-shadow: none;
+  position: relative;
+  background-color: transparent;
+  border-bottom: 1px dashed #c8c8c8;
+  padding-bottom: 20px;
+  margin-bottom: 14px;
+}
+
+.itinerary-main .itinerary:last-child {
+  border: none;
+}
+
+.itinerary .head-it a {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  display: block !important;
+  padding: 0;
+  position: relative;
+  border: 0;
+  background-color: transparent;
+  -webkit-transition: none;
+  transition: none;
+  color: var(--primary);
+}
+
+.itinerary .head-it a span {
+  font-weight: bold;
+  color: #132e5b;
+  padding-right: 10px;
+}
+.itinerary .head-it a[aria-expanded="true"]::after {
+  content: "\f068";
+  font-weight: 700;
+}
+.itinerary .head-it a::after {
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+  font-family: "FontAwesome";
+  content: "\f067";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.itinerary .itinerary-body {
+  padding: 15px 25px 5px 70px;
+}
+.itinerary .itinerary-body p {
+  color: var(--gray-dark);
+  font-size: 15.5px;
+}
+.itinerary .itinerary-body p:last-child {
+  margin: 0;
 }
