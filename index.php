@@ -104,8 +104,7 @@ include('navbar.php');
 								<h2>10 Days</h2>
 							</div>
 						</div>
-						<h1><a href="#">Ghorepani Poohill Trek</a></h1>
-
+						<h1>Ghorepani Poohill Trek</h1>
 					</main>
 					<div class="vt-more">
 						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
@@ -129,7 +128,7 @@ include('navbar.php');
 								<h2>10 Days</h2>
 							</div>
 						</div>
-						<h1><a href="#">Mardi Himal Trek</a></h1>
+						<h1>Mardi Himal Trek</h1>
 
 					</main>
 					<div class="vt-more">
@@ -153,7 +152,7 @@ include('navbar.php');
 								<h2>15 Days</h2>
 							</div>
 						</div>
-						<h1><a href="single.php">Everest Base Camp Trek</a></h1>
+						<h1>Everest Base Camp Trek</h1>
 
 					</main>
 					<div class="vt-more">
@@ -177,7 +176,7 @@ include('navbar.php');
 								<h2>9 Days</h2>
 							</div>
 						</div>
-						<h1><a href="#">Annapurna Base Camp Trek</a></h1>
+						<h1>Annapurna Base Camp Trek</h1>
 
 					</main>
 					<div class="vt-more">

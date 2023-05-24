@@ -155,14 +155,15 @@ include('navbar.php');
                         <h3 class="title">Itinerary</h3>
                     </div>
                     <div class="inner-wrap">
+                        <div class="expand-all"><button class="toggleItinerary">Expand All</button></div>
                         <div class="itinerary-group">
                             <div class="itinerary-main" id="accordion" aria-multiselectable="true">
                                 <div class="itinerary">
-                                    <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse1">
+                                    <div class="head-it"><a id="tg-it" class="collapse" data-toggle="collapse" href="#collapse1" aria-expanded="true">
                                             <span>Day 01: </span>
                                             Arrive at Tribhuvan International airport (1345m). </a>
                                     </div>
-                                    <div id="collapse1" class="itinerary-collapse collapse" data-parent="#accordion">
+                                    <div id="collapse1" class="itinerary-collapse collapse show" data-parent="#accordion">
                                         <div class="itinerary-body">
                                             <p>A representative from Shikhar Adventure will welcome you our hotel. We will
                                                 prepare you with information and gear for your trek. </p>
@@ -368,7 +369,59 @@ include('navbar.php');
                         </div>
                     </div>
                 </section>
+                <section class="costing">
+                    <div class="cost-title">
+                        <h3 class="title">Includes & Excludes</h3>
+                    </div>
+                    <div class="cost-wrap">
+                        <div class="cost-inc">
+                            <div class="inc-title">
+                                <h3 class="title">Cost Includes</h3>
+                            </div>
+                            <div class="inc-list">
+                                <ul>
+                                    <li class="inc-item">Transportation to and from Tribhuvan Airport.</li>
+                                    <li class="inc-item">Three nights in a 2-3 star hotel in Kathmandu, breakfast included.</li>
+                                    <li class="inc-item">All transportation for the trek.</li>
+                                    <li class="inc-item">Local guest house accommodation in mountain.</li>
+                                    <li class="inc-item">Trekkers’ Information Management System (TIMS) fees.</li>
+                                    <li class="inc-item">Annapurna Conservation Area (ACAP) Permit.</li>
+                                    <li class="inc-item">Government-authorized, experienced guide and porters.</li>
+                                    <li class="inc-item">Insurance, food, accommodation, and wage for guides and porters.</li>
+                                    <li class="inc-item">Hygienic meals (breakfast, lunch, and dinner) during the trek.</li>
+                                    <li class="inc-item">All equipment (sleeping bag, down jacket and duffel bag)</li>
+                                    <li class="inc-item">First Aid Kit</li>
+                                    <li class="inc-item">Maps</li>
+                                    <li class="inc-item">Service charge and government taxes</li>
+                                    <li class="inc-item">Post-trek celebration dinner in Kathmandu</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cost-exc">
+                            <div class="exc-title">
+                                <h3 class="title">Cost Includes</h3>
+                            </div>
+                            <div class="exc-list">
+                                <ul>
+                                    <li class="exc-item">International airfare.</li>
+                                    <li class="exc-item">Meals in Kathmandu (besides breakfast).</li>
+                                    <li class="exc-item">Your personal expenses, shopping, etc.</li>
+                                    <li class="exc-item">Shower and electronic charging fees at guest houses during the trek.</li>
+                                    <li class="exc-item">Tips for guide and porter</li>
+                                    <li class="exc-item">Extra accommodation and meals outside of itinerary</li>
+                                    <li class="exc-item">Alcoholic drinks, chocolates, tea and coffee.</li>
+                                    <li class="exc-item">Costs from unexpected occurrences (i.e. cancellations, weather problems, damages of property, illness, etc.).</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
+
+
+
+
             <div class="col-lg-4 page-right">
                 <section class="trip-info">
                     <h3>Trip information</h3>

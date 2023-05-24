@@ -139,16 +139,6 @@ const swiperT = new Swiper('.swiperTest', {
 
 
 
-
-
-// const btn = document.getElementById('toggleItinerary');
-// const div = document.querySelectorAll('.itinerary-text');
-
-// btn.addEventListener('click', () => {
-// 	div.forEach(div => div.classList.toggle('expand'));
-// })
-
-
 let calcScrollValue = () => {
 	let scrollProgress = document.getElementById("progress");
 	let progressValue = document.getElementById("progress-value");

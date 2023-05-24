@@ -890,6 +890,13 @@ a.button:hover {
   align-items: center;
   padding: 0.5em 0;
 }
+.vt-card main h1 {
+  font-size: 28px;
+}
+.vt-card main h1{
+  color: var(--dark);
+}
+
 
 .vt-card main div.flex-row .coin-base {
   margin: 0 1rem;
@@ -2588,7 +2595,7 @@ a.pack-image .image {
   width: 1.2em;
   margin-right: 0.5em;
 }
-
+/*******Itinerary*******/
 .itinerary-wrap {
   margin: 1rem 0;
 }
@@ -2605,6 +2612,19 @@ a.pack-image .image {
   margin-bottom: 40px;
 }
 
+.itinerary-wrap .inner-wrap .expand-all {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+.itinerary-wrap .inner-wrap .expand-all button {
+  color: var(--primary);
+  border: none;
+  background: none;
+}
+.itinerary-wrap .inner-wrap .expand-all button:hover {
+  text-decoration: underline;
+}
 .itinerary-wrap .inner-wrap .itinerary-main {
   margin: 0;
   padding: 0;
@@ -2622,7 +2642,10 @@ a.pack-image .image {
 .itinerary-main .itinerary:last-child {
   border: none;
 }
-
+.itinerary .head-it {
+  position: relative;
+  padding-right: 40px;
+}
 .itinerary .head-it a {
   font-size: 16px;
   font-weight: 600;
@@ -2648,7 +2671,7 @@ a.pack-image .image {
 }
 .itinerary .head-it a::after {
   position: absolute;
-  right: 2px;
+  right: -35px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -2669,3 +2692,74 @@ a.pack-image .image {
 .itinerary .itinerary-body p:last-child {
   margin: 0;
 }
+
+/*******Cost Details********/
+
+.costing {
+  margin: 1rem 0;
+}
+
+.costing .cost-title h3 {
+  font-weight: 600;
+  color: var(--dark-clr);
+}
+
+.costing .cost-wrap {
+  border: 1px solid #e1e1e1;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+.costing .cost-inc .inc-title h3 {
+  color: var(--primary);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.costing .cost-wrap ul {
+  margin-left: 20px;
+}
+
+.costing .cost-wrap ul li {
+  text-align: left;
+  list-style: none;
+  position: relative;
+  display: block;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.costing .cost-wrap .cost-inc ul li::before {
+  content: "\f00c";
+  display: inline-block;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  font-family: "FontAwesome";
+  font-size: 14px;
+  color: #25aa04;
+  font-weight: 800;
+}
+.costing .cost-exc {
+  margin-top: 2rem;
+}
+
+.costing .cost-exc .exc-title h3 {
+  color: var(--primary);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.costing .cost-wrap .cost-exc ul li::before {
+  content: "\f00d";
+  display: inline-block;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  font-family: "FontAwesome";
+  font-size: 16px;
+  color: #e70404;
+  font-weight: 800;
+} 
