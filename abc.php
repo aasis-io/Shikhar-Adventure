@@ -17,82 +17,13 @@ include('navbar.php');
             </ol>
         </div>
 
-        <div class="img-box"><img src="images/abc.jpg" alt=""></div>
-        <section class="trip-fact-price">
-            <div class="row">
-                <div class="col-lg-8 col-md-12 col-sm-12">
-                    <div class="package-bound package-intro">
-                        <aside class="package-facts">
-                            <ul class="facts-list">
-                                <li>
-                                    <dl>
-                                        <dt><span class="fa-solid fa-chart-simple"></span>
-                                            Trip Grade
-                                        </dt>
-                                        <dd>Moderate&nbsp;<a href=""><i class="fa-solid fa-circle-question"></i></a></dd>
-                                    </dl>
-                                </li>
-                                <li>
-                                    <dl>
-                                        <dt><span class="fa-solid fa-mountain"></span>Max Elevation</dt>
-                                        <dd>4310 Meters</dd>
-                                    </dl>
-                                </li>
-                                <li>
-                                    <dl>
-                                        <dt><span class="fa-solid fa-users"></span>Group Size</dt>
-                                        <dd>Min 1 Pax.&nbsp;</dd>
-                                    </dl>
-                                </li>
-                                <li>
-                                    <dl>
-                                        <dt><span class="fa-solid fa-calendar-days"></span>Duration</dt>
-                                        <dd>14 Days&nbsp;</dd>
-                                    </dl>
-                                </li>
-                                <li>
-                                    <dl>
-                                        <dt><span class="fa-solid fa-bed"></span>Accommodation</dt>
-                                        <dd>Hotel/Guesthouse&nbsp;</dd>
-                                    </dl>
-                                </li>
-                                <li>
-                                    <dl>
-                                        <dt><span class="fa-solid fa-cloud"></span>Best Time</dt>
-                                        <dd>March - May &amp; Sept - Dec&nbsp;</dd>
-                                    </dl>
-                                </li>
-                            </ul>
-                        </aside>
-                    </div>
-                </div>
+        <div class="img-box"><img src="images/abc.jpg" alt="">
+            <div class="quote"><span><strong>$</strong> 1,080</span></div>
+        </div>
 
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="book-wrap">
-                        <div class="my-price">
-                            <span class="quote">Quoted Price: </span>
-                            <sup>$</sup>
-                            <strong>1080</strong>
-                            <sub>USD</sub>
-                        </div>
-                        <ul>
-                            <li class="cta-book">
-                                <a href="">Book This Trip <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </li>
-                            <li class="cta-customize">
-                                <a href="">Enquire Now <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </section>
 
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 scrollable-content">
                 <section id="#trip-overview" class="about-trip">
                     <div class="trip-title">
                         <h3 class="title">Trip Overview</h3>
@@ -150,6 +81,7 @@ include('navbar.php');
 
                     </div>
                 </section>
+
                 <section class="itinerary-wrap" id="itinerary">
                     <div class="it-title">
                         <h3 class="title">Itinerary</h3>
@@ -369,6 +301,14 @@ include('navbar.php');
                         </div>
                     </div>
                 </section>
+                <section class="trek-map">
+                    <div class="map-title">
+                        <h3 class="title">Trek Map</h3>
+                    </div>
+                    <div class="map-wrapper">
+                        <img src="images/annapurna-trek-map.jpg" alt="">
+                    </div>
+                </section>
                 <section class="costing">
                     <div class="cost-title">
                         <h3 class="title">Includes & Excludes</h3>
@@ -417,12 +357,19 @@ include('navbar.php');
                         </div>
                     </div>
                 </section>
+                <section class="gallery">
+                    <div class="gallery-title">
+                        <h3 class="title">Annapurna Trek Gallery</h3>
+                    </div>
+
+                </section>
+
             </div>
 
 
 
 
-            <div class="col-lg-4 page-right">
+            <div class="col-lg-4 page-right fixed-content">
                 <section class="trip-info">
                     <h3>Trip information</h3>
                     <ul>

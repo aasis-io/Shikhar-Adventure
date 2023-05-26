@@ -89,6 +89,9 @@
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
+<script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
 <script src="js/script.js"></script>
 <script src="https://kit.fontawesome.com/1f2d50e34f.js" crossorigin="anonymous"></script>
 </body>

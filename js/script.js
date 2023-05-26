@@ -90,6 +90,20 @@ document.addEventListener('click', function (event) {
 });
 
 
+
+
+new Splide('.splide', {
+	type: 'fade',
+	speed: 1500,
+	rewind: true,
+	// autoplay: {
+	// 	delay: 5000,
+	// },
+
+}).mount();
+
+
+
 var swiper = new Swiper(".mySwiper", {
 	allowTouchMove: false,
 	speed: 1000,

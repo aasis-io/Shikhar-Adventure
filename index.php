@@ -10,73 +10,54 @@ include('navbar.php');
 
 <!-- --------------Swiper Start-------------- -->
 
-<section class="main swiper mySwiper">
-	<div class="wrapper swiper-wrapper">
-		<div class="slide swiper-slide">
-			<img src="images/banner-7.jpg" alt="" class="image" />
-			<div class="image-data">
-				<div class="container">
-					<span class="text">Journey to the base camp of Mount Everest</span>
-					<h2>
-						Everest Base Camp Trek </h2>
-					<a href="single.php" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
-				</div>
-			</div>
+<section class="mySlider">
+	<div class="splide">
+		<div class="splide__arrows">
+			<button class="splide__arrow splide__arrow--prev">
+				<i class="fa-solid fa-circle-chevron-left"></i>
+			</button>
+			<button class="splide__arrow splide__arrow--next">
+				<i class="fa-solid fa-circle-chevron-right"></i> </button>
 		</div>
-		<div class="slide swiper-slide">
-			<img src="images/banner-1.jpg" alt="" class="image" />
-			<div class="image-data">
-				<div class="container">
-					<span class="text">Heaven is Myth, Nepal is Real</span>
-					<h2>
-						Mardi Himal Trek
-					</h2>
-					<a href="ebc-trek.php" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="slide swiper-slide">
-			<img src="images/banner-5.jpg" alt="" class="image" />
-			<div class="image-data">
-				<div class="container">
-					<span class="text">Discover The Land of Himalaya</span>
-					<h2>
-						Annapurna Base Camp Trek
-					</h2>
-					<a href="abc.php" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="slide swiper-slide">
-			<img src="images/banner-3.jpg" alt="" class="image" />
-			<div class="image-data">
-				<div class="container">
-					<span class="text">A Wild World Awaits You</span>
-					<h2>
-						Nepal Wildlife Tour
-					</h2>
-					<a href="#" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="slide swiper-slide">
-			<img src="images/banner-6.jpg" alt="" class="image" />
+		<div class="splide__track">
+			<ul class="splide__list">
+				<li class="splide__slide">
+					<img src="images/poonhill-banner.jpg" alt="">
+					<div class="image-data">
+						<div class="container">
+							<span class="pack-quote">Unveiling the Mysteries of Himalayas</span>
+							<h2 class="pack-title">Ghorepani Poonhill Trek</h2>
+							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+					</div>
 
-			<div class="image-data">
-				<div class="container">
-					<span class="text">Culture Opens the Sense of Beauty</span>
-					<h2>
-						Nepal Heritage Tour
-					</h2>
-					<a href="#" class="button">Details<i class="fa-solid fa-arrow-right"></i></a>
-				</div>
-			</div>
+				</li>
+				<li class="splide__slide">
+					<img src="images/banner-9.jpg" alt="">
+					<div class="image-data">
+						<div class="container">
+							<span class="pack-quote">The Magnificent Khumbu Region</span>
+							<h2 class="pack-title">Everest Base Camp Trek</h2>
+							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</li>
+
+				<li class="splide__slide">
+					<img src="images/banner-8.jpg" alt="">
+					<div class="image-data">
+						<div class="container">
+							<span class="pack-quote">A Journey to the Heart of the Himalayas</span>
+							<h2 class="pack-title">Annapurna Base Camp Trek</h2>
+							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</li>
+
+			</ul>
 		</div>
+
 	</div>
-
-	<div class="swiper-button-next nav-btn"></div>
-	<div class="swiper-button-prev nav-btn"></div>
-
 </section>
 
 <!-- --------------Venture Start---------------->
@@ -86,21 +67,15 @@ include('navbar.php');
 			<span class="title">Explore the <strong>Best</strong></span>
 		</div>
 		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-sm-12">
+			<div class="col-md-6">
 				<div class="vt-card">
 					<a href="#" class="vt-image">
 						<img class="image" src="images/featured-2.jpg" alt="Mt Fishtail" />
 					</a>
-
-
 					<main class="main-content">
 						<div class="flex-row">
 							<div class="coin-base">
-								<i class="fa-solid fa-tags"></i>
-								<h2>$695</h2>
-							</div>
-							<div class="coin-base">
-								<i class="fa-solid fa-calendar-days"></i>
+								<span>Duration:</span>
 								<h2>10 Days</h2>
 							</div>
 						</div>
@@ -109,78 +84,74 @@ include('navbar.php');
 					<div class="vt-more">
 						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
 					</div>
-
+					<div class="cost">
+						<span><strong>$</strong> 695</span>
+					</div>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-sm-12">
+			<div class="col-md-6">
 				<div class="vt-card">
 					<a href="#" class="vt-image">
-						<img class="image" src="images/featured-3.jpg" alt="Mardi View Point" />
+						<img class="image" src="images/featured-3.jpg" alt="Mt Fishtail" />
 					</a>
 					<main class="main-content">
 						<div class="flex-row">
 							<div class="coin-base">
-								<i class="fa-solid fa-tags"></i>
-								<h2>$735</h2>
-							</div>
-							<div class="coin-base">
-								<i class="fa-solid fa-calendar-days"></i>
-								<h2>10 Days</h2>
+								<span>Duration:</span>
+								<h2>9 Days</h2>
 							</div>
 						</div>
 						<h1>Mardi Himal Trek</h1>
-
 					</main>
 					<div class="vt-more">
 						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
 					</div>
-				</div>
-			</div>
-			<div class="col-xl-6 col-lg-6 col-sm-12">
-				<div class="vt-card">
-					<a href="single.php" class="vt-image">
-						<img class="image" src="images/featured-4.jpg" alt="View of Mt Everest" />
-					</a>
-					<main class="main-content">
-						<div class="flex-row">
-							<div class="coin-base">
-								<i class="fa-solid fa-tags"></i>
-								<h2>$1295</h2>
-							</div>
-							<div class="coin-base">
-								<i class="fa-solid fa-calendar-days"></i>
-								<h2>15 Days</h2>
-							</div>
-						</div>
-						<h1>Everest Base Camp Trek</h1>
-
-					</main>
-					<div class="vt-more">
-						<a href="single.php" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
+					<div class="cost">
+						<span><strong>$</strong> 749</span>
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-sm-12">
+			<div class="col-md-6">
 				<div class="vt-card">
-					<a href="abc.php" class="vt-image">
-						<img class="image" src="images/featured-5.jpg" alt="Annapurna Base Camp" />
+					<a href="#" class="vt-image">
+						<img class="image" src="images/featured-4.jpg" alt="Mt Fishtail" />
 					</a>
 					<main class="main-content">
 						<div class="flex-row">
 							<div class="coin-base">
-								<i class="fa-solid fa-tags"></i>
-								<h2>$845</h2>
+								<span>Duration:</span>
+								<h2>14 Days</h2>
 							</div>
+						</div>
+						<h1>Everest Base Cap Trek</h1>
+					</main>
+					<div class="vt-more">
+						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
+					</div>
+					<div class="cost">
+						<span><strong>$</strong> 1395</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="vt-card">
+					<a href="abc.php" class="vt-image">
+						<img class="image" src="images/featured-5.jpg" alt="Mt Fishtail" />
+					</a>
+					<main class="main-content">
+						<div class="flex-row">
 							<div class="coin-base">
-								<i class="fa-solid fa-calendar-days"></i>
-								<h2>9 Days</h2>
+								<span>Duration:</span>
+								<h2>10 Days</h2>
 							</div>
 						</div>
 						<h1>Annapurna Base Camp Trek</h1>
-
 					</main>
 					<div class="vt-more">
 						<a href="abc.php" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
+					</div>
+					<div class="cost">
+						<span><strong>$</strong> 1080</span>
 					</div>
 				</div>
 			</div>
@@ -199,34 +170,7 @@ include('navbar.php');
 	</div>
 </div>
 
-<!--**About Us**-->
-<!-- <section class="about-intro">
-	<div class="container">
-		<div class="about-title">
-			<h3>Welcome To <strong>Shikhar Adventure</strong></h5>
-		</div>
-		<div class="about-text">
-			<p>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse in sit ipsum ab nam eveniet repellendus
-				deserunt accusamus dignissimos aliquid doloremque, fugit cumque laudantium ipsa consequuntur
-				molestiae cupiditate nesciunt vero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				Odit nostrum nihil incidunt, qui dignissimos, veritatis iste dicta consectetur numquam et harum alias at totam itaque quod doloribus sed! Obcaecati, nihil.
-			</p>
 
-			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae numquam reiciendis fugit repudiandae saepe reprehenderit eum. Dicta, accusantium. Sapiente incidunt nobis blanditiis expedita nihil. Ad consequatur repudiandae obcaecati cupiditate facere.
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum atque cupiditate dolores consequatur eligendi rem porro ab laboriosam cum necessitatibus error facilis, ipsa laudantium nulla! Consequatur totam sint exercitationem commodi.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. In vel error tempora placeat quidem officia deserunt repellat, velit laudantium. Distinctio quas voluptatibus eos pariatur harum, ex minima facere culpa magni?
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatibus odit inventore suscipit voluptates dolorum eligendi impedit hic earum quo voluptatem et temporibus, omnis assumenda voluptatum? Quaerat fugit dolore iste?
-			</p>
-			<div class="read-more">
-				<a href="" class="btn">Read More<i class="fa-solid fa-arrow-right"></i></a>
-			</div>
-		</div>
-	</div>
-</section> -->
 
 <!-- My Intro Section -->
 
