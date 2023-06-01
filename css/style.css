@@ -1176,9 +1176,11 @@ a.vt-image:hover .image {
   padding: 10px;
   background: var(--primary);
   color: var(--white);
+  border-radius: 5px;
 }
 
 .my-intro .intro-card .read-intro a i {
+  margin-left: 3px;
   font-size: 12px;
   color: var(--white);
 }

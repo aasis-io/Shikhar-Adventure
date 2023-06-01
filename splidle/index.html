@@ -14,75 +14,59 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 </head>
 
 <body>
-    <section id="main-carousel" class="splide"
-        aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
-        <div class="splide__track">
-            <ul class="splide__list">
-                <li class="splide__slide">
-                    <img src="1.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="2.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-            </ul>
-        </div>
-    </section>
+    <div class="thumbnail-wrapper">
+        <section id="main-carousel" class="splide"
+            aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-6.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-2.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-3.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-4.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-1.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-5.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="thumbnail-carousel" class="splide"
-        aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
-        <div class="splide__track">
-            <ul class="splide__list">
-                <li class="splide__slide">
-                    <img src="1.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="2.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-                <li class="splide__slide">
-                    <img src="3.jpg" alt="">
-                </li>
-            </ul>
-        </div>
-    </section>
+        <section id="thumbnail-carousel" class="splide"
+            aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-6.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-2.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-3.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-4.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-1.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="../images/gallery/abc/abc-5.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
 
     <script src="
     https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
@@ -106,8 +90,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             });
 
             var thumbnails = new Splide('#thumbnail-carousel', {
-                fixedWidth: 100,
-                fixedHeight: 60,
+                fixedWidth: 200,
+                fixedHeight: 120,
                 gap: 10,
                 rewind: true,
                 pagination: false,

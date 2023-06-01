@@ -362,6 +362,66 @@ include('navbar.php');
                         <h3 class="title">Annapurna Trek Gallery</h3>
                     </div>
 
+                    <div class="thumbnail-wrapper">
+                        <section id="main-carousel" class="splide" aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-6.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-2.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-3.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-4.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-1.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-5.jpg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section id="thumbnail-carousel" class="splide" aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                            <div class="splide__arrows">
+                                <button class="splide__arrow splide__arrow--prev">
+                                    <i class="fa-solid fa-circle-chevron-left"></i>
+                                </button>
+                                <button class="splide__arrow splide__arrow--next">
+                                    <i class="fa-solid fa-circle-chevron-right"></i> </button>
+                            </div>
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-6.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-2.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-3.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-4.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-1.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="images/gallery/abc/abc-5.jpg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
                 </section>
 
             </div>

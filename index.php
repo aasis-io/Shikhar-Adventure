@@ -11,7 +11,7 @@ include('navbar.php');
 <!-- --------------Swiper Start-------------- -->
 
 <section class="mySlider">
-	<div class="splide">
+	<div class="splide mySwiper">
 		<div class="splide__arrows">
 			<button class="splide__arrow splide__arrow--prev">
 				<i class="fa-solid fa-circle-chevron-left"></i>
@@ -21,6 +21,17 @@ include('navbar.php');
 		</div>
 		<div class="splide__track">
 			<ul class="splide__list">
+
+				<li class="splide__slide">
+					<img src="images/banner-5.jpg" alt="">
+					<div class="image-data">
+						<div class="container">
+							<span class="pack-quote">Trek to the foot of Mt. Everest</span>
+							<h2 class="pack-title">Everest Base Camp Trek</h2>
+							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</li>
 				<li class="splide__slide">
 					<img src="images/poonhill-banner.jpg" alt="">
 					<div class="image-data">
@@ -32,17 +43,6 @@ include('navbar.php');
 					</div>
 
 				</li>
-				<li class="splide__slide">
-					<img src="images/banner-9.jpg" alt="">
-					<div class="image-data">
-						<div class="container">
-							<span class="pack-quote">The Magnificent Khumbu Region</span>
-							<h2 class="pack-title">Everest Base Camp Trek</h2>
-							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</li>
-
 				<li class="splide__slide">
 					<img src="images/banner-8.jpg" alt="">
 					<div class="image-data">
@@ -60,11 +60,38 @@ include('navbar.php');
 	</div>
 </section>
 
+
+<!-- Search Container ----- -->
+
+<div class="trip-search">
+	<div class="container">
+
+
+		<div class="row">
+			<div class="col-md-9 mx-auto">
+				<div class="search-title">
+					<span class="title">
+						Trip Search
+					</span>
+					<h3>Find Your Perfect Venture<h3>
+				</div>
+				<form action="">
+					<input type="search" name="" id="" placeholder="Find your trip...">
+					<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
 <!-- --------------Venture Start---------------->
 <section class="venture">
 	<div class="container">
 		<div class="venture-title">
-			<span class="title">Explore the <strong>Best</strong></span>
+			<h3>SHIKHAR <strong>ADVENTURE</strong></h3>
+			<span class="en-title">Our Best Sellers</span>
 		</div>
 		<div class="row">
 			<div class="col-md-6">
@@ -165,7 +192,7 @@ include('navbar.php');
 <div class="customize-trip">
 	<div class="container">
 		<h3>Customize Your Trip</h3>
-		<p>Tell us your estimated holiday time, budget, travel style etc, We will design awesome customize trip for you.</p>
+		<p>Tell us your estimated holiday time, budget, travel style etc, We will design awesome customized trip for you.</p>
 		<a href="#" class="btn btn-warning">Start Now<i class="fa-solid fa-arrow-right"></i></a>
 	</div>
 </div>
@@ -177,33 +204,38 @@ include('navbar.php');
 <section class="my-intro">
 	<div class="container">
 		<div class="wl-title"><span class="my-title">Welcome To</span>
-			<span class="sh-title">
+			<!-- <span class="sh-title">
 				Shikhar Adventure
-			</span>
+			</span> -->
+			<span class="sh-title">Outdoor Activities in Nepal, Tibet and Bhutan</span>
 		</div>
 		<div class="row">
-			<div class="col-lg-6">
-				<div class="intro-card">
-					<div class="my-title"> <span class="wc-title">About Us</span>
-					</div>
-					<span class="title">Find your Dream <strong>Venture</strong></span>
-					<p class="intro-text">Shikhar Adventure is a premier adventure company
-						specializing in thrilling experiences in Nepal, Tibet, and Bhutan.
-						Our expert guides curate unique expeditions that cater to all levels
-						of adventurers. With a focus on safety and sustainability, we offer
-						unforgettable journeys that combine outdoor activities with cultural
-						immersion. Join us as we explore the majestic Himalayas and create
-						lifelong memories. Choose Shikhar Adventure for your next
-						adventure!
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem qui nobis saepe eveniet vel. Veniam, culpa error eos quae impedit suscipit libero quaerat amet facilis blanditiis quasi iusto, minus labore?</p>
-					<div class="intro-more"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+
+			<div class="intro-card">
+
+				<div class="intro-text">
+					<p><b>Shikhar Adventure</b> is a leading trekking agency in Nepal, owned and operated by <b><u>Dambar Thapa</u></b>,<br>
+						a seasoned trekking guide with over a decade of experience in the industry. With a team of experienced and knowledgeable
+						guides, <b>Shikhar Adventure</b> offers a wide range of trekking packages to suit every level of trekker,<br> from beginners
+						to experienced adventurers.</p>
+					<p><b>We</b> are dedicated to giving our clients the best trekking experience in Nepal. We specialize in
+						organizing trekking <br> tours to some of the most beautiful locations in the Himalayas, such as the <b><u>Everest Base Camp</u></b>,<br>
+						the <b><u>Annapurna Circuit</u></b>, and the <b><u>Langtang Valley</u></b>,
+						among others. With a focus on safety,<br> comfort, and adventure, our <b>trekking</b> packages are designed to
+						provide a one-of-a-kind <br> and unforgettable experience.</p>
+					<p><b>" Your Travel is Our Xenium "</b></p>
+
+					<p>To summarize, <b>Shikhar Adventure</b> is the ideal choice for the ultimate <a href=""><b><u>trekking</u></b></a>experience in <b>Nepal</b>.
+						We guarantee a safe, comfortable, and unforgettable Himalayan adventure with our commitment to sustainable tourism,
+						experienced guides, and personalized services. <a href=""><b><u>Contact us</u></b></a> today to reserve your trekking tour!</p>
+				</div>
+
+				<div class="read-intro">
+					<a href="" class="read">Read More <i class="fa-solid fa-arrow-right"></i></a>
 				</div>
 			</div>
-			<div class="col-lg-6">
-				<div class="img-box">
-					<img src="images/abc-trek.JPG" alt="">
-				</div>
-			</div>
+
+
 		</div>
 	</div>
 </section>

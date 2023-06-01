@@ -1,10 +1,11 @@
 <!-- --------------Navbar Start-------------- -->
 <nav id="#nav">
-    <div class="container-lg navbar">
-        <div class="nav-links">
+    <div class="navbar">
+        <div class="container nav-links">
             <ul class="links">
                 <li><a href="index.php">Home</a></li>
                 <li class="dropdown">
+
                     <a class="dropped" href="#">Nepal<span class="fa-solid fa-chevron-down"></span></a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-submenu">
@@ -106,14 +107,16 @@
                     </ul>
                 </li>
                 <li><a href="#">Blog</a></li>
+                <button class="search-toggle" id="search-button"><span class="fa-solid fa-magnifying-glass"></span></button>
+                <div id="search-container" class="search-box hidden-search-bar">
+                    <form id="form">
+                        <input type="search" id="search-bar" name="q" placeholder="Trip Search...">
+                        <button><span class="fa-solid fa-magnifying-glass"></span></button>
+                    </form>
+                </div>
             </ul>
+
         </div>
-        <button class="search-toggle" id="search-button"><span class="fa-solid fa-magnifying-glass"></span></button>
-        <div id="search-container" class="search-box hidden-search-bar">
-            <form id="form">
-                <input type="search" id="search-bar" name="q" placeholder="Trip Search...">
-                <button><span class="fa-solid fa-magnifying-glass"></span></button>
-            </form>
-        </div>
+
     </div>
 </nav>

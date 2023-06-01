@@ -1,3 +1,12 @@
+<!-- <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+<div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</div> -->
+
+
+
 <footer class="footer-ft">
     <div class="container">
         <div class="row">
@@ -63,21 +72,10 @@
 
 <!-- Progress Bar -->
 
-<!-- <div id="progress">
+<div id="progress">
     <span id="progress-value"><i class="fa-solid fa-chevron-up"></i></span>
-</div> -->
-
-<div class="cookie-pop show">
-    <div class="cookie-text">
-
-    <span class="text">We use cookies to ensure you get the best experience on our website.</span>
-
-    <span href="" class="allow-cookie">Allow Cookies</span>
-    </div>
-    <div class="cross-item">
-        <span class="cross"><i class="fa-solid fa-xmark"></i></span>
-    </div>
 </div>
+
 
 
 
