@@ -11,8 +11,20 @@
     <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+
+    <!-- <link rel="stylesheet" href="assets/css/docs.theme.min.css" /> -->
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css" />
+
+
+
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico" sizes="any"><!-- 32×32 -->
     <link rel="icon" href="images/icon.svg" type="image/svg+xml">

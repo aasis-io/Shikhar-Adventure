@@ -63,26 +63,30 @@
 
 <!-- Progress Bar -->
 
-<!-- <div id="progress">
+<div id="progress">
     <span id="progress-value"><i class="fa-solid fa-chevron-up"></i></span>
-</div> -->
+</div>
 
-<div class="cookie-pop show">
-    <div class="cookie-text">
+<div class="cookie-wrapper">
+    <header>
+        <i class="bx bx-cookie"></i>
+        <h2>Cookies Consent</h2>
+    </header>
 
-    <span class="text">We use cookies to ensure you get the best experience on our website.</span>
-
-    <span href="" class="allow-cookie">Allow Cookies</span>
+    <div class="cookie-data">
+        <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
     </div>
-    <div class="cross-item">
-        <span class="cross"><i class="fa-solid fa-xmark"></i></span>
+
+    <div class="cookie-buttons">
+        <button class="cookie-button" id="acceptBtn">Accept</button>
+        <button class="cookie-button" id="declineBtn">Decline</button>
     </div>
 </div>
 
 
-
 <!--   *****   JS Link   *****   -->
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 </script>
@@ -94,6 +98,11 @@
 <script src="
     https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
     "></script>
+
+<script src="assets/vendors/jquery.min.js"></script>
+<script src="assets/owlcarousel/owl.carousel.js"></script>
+
+
 <script src="js/script.js"></script>
 <script src="https://kit.fontawesome.com/1f2d50e34f.js" crossorigin="anonymous"></script>
 </body>

@@ -21,9 +21,19 @@ include('navbar.php');
 		</div>
 		<div class="splide__track">
 			<ul class="splide__list">
-
 				<li class="splide__slide">
-					<img src="images/banner-5.jpg" alt="">
+					<img src="images/banner/banner-mardi.jpg" alt="">
+					<div class="image-data">
+						<div class="container">
+							<span class="pack-quote">Unveiling the Mysteries of Himalayas</span>
+							<h2 class="pack-title">Mardi Himal Trek - 10 Days</h2>
+							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+					</div>
+
+				</li>
+				<li class="splide__slide">
+					<img src="images/banner/banner-ebc.jpg" alt="">
 					<div class="image-data">
 						<div class="container">
 							<span class="pack-quote">Trek to the foot of Mt. Everest</span>
@@ -32,34 +42,41 @@ include('navbar.php');
 						</div>
 					</div>
 				</li>
-				<li class="splide__slide">
-					<img src="images/poonhill-banner.jpg" alt="">
-					<div class="image-data">
-						<div class="container">
-							<span class="pack-quote">Unveiling the Mysteries of Himalayas</span>
-							<h2 class="pack-title">Ghorepani Poonhill Trek</h2>
-							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
-						</div>
-					</div>
 
-				</li>
 				<li class="splide__slide">
-					<img src="images/banner-8.jpg" alt="">
+					<img src="images/banner/banner-abc.jpg" alt="">
 					<div class="image-data">
 						<div class="container">
-							<span class="pack-quote">A Journey to the Heart of the Himalayas</span>
-							<h2 class="pack-title">Annapurna Base Camp Trek</h2>
-							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+							<div class="img-data-wrapper">
+								<span class="pack-quote">Into the Heart of Himalayas</span>
+								<h2 class="pack-title">Annapurna Base Camp Trek</h2>
+								<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+							</div>
 						</div>
 					</div>
 				</li>
+
+
+
 
 			</ul>
 		</div>
-
 	</div>
 </section>
+<!-- <div class="carousel-wrapper">
+	<div class="carousel">
+		<img src="images/ebc-banner.jpg" alt="" />
 
+		<div class="carousel-data">
+			<div class="container">
+				<span class="trip-quote">Leave Footprints on the Roof of the World!</span>
+				<h3>Everest Base Camp Trek</h3>
+				<a href="" class="learn-more">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+			</div>
+		</div>
+
+	</div>
+</div> -->
 
 <!-- Search Container ----- -->
 
@@ -84,61 +101,86 @@ include('navbar.php');
 	</div>
 </div>
 
+<!-- Latest trips -->
 
+<section class="latest-trip">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 col-lg-4">
+				<div class="latest-wrap">
+					<div class="wrap-text">
+						<h3 class="wrap-title">Latest Trips</h3>
+						<span class="explore">Nepal's Off The Bitten Trails</span>
+						<span class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Debitis eveniet est beatae soluta.
+							Similique amet, natus sint perferendis ratione corrupti?</span>
+					</div>
+					<div class="join-us"><a href="" class="join">Join Us Now</a></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 col-lg-4">
+				<div class="latest-card">
+					<a href="" class="latest-image">
+						<img src="images/mardi.jpg" alt="">
+					</a>
+					<main class="latest-detail">
+						<div class="time-grade">
+							<div class="time"><span class="duration"><i class="fa-solid fa-calendar-days"></i></span>
+								<h4>9 Days</h4>
+							</div>
+							<div class="grade"><span class="chart"><i class="fa-solid fa-chart-column"></i></span>
+								<h4>Medium</h4>
+							</div>
+						</div>
+						<div class="trek-title">
+							<a href="">
+								<h3>Mardi Himal Trek</h3>
+							</a>
+						</div>
+					</main>
+					<div class="pricing">
+						<span><i class="fa-solid fa-tags"></i>$695</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 col-lg-4">
+				<div class="latest-card">
+					<a href="" class="latest-image">
+						<img src="images/mustang.jpg" alt="">
+					</a>
+					<main class="latest-detail">
+						<div class="time-grade">
+							<div class="time"><span class="duration"><i class="fa-solid fa-calendar-days"></i></span>
+								<h4>12 Days</h4>
+							</div>
+							<div class="grade"><span class="chart"><i class="fa-solid fa-chart-column"></i></span>
+								<h4>Strenuous</h4>
+							</div>
+						</div>
+						<div class="trek-title">
+							<a href="">
+								<h3>Upper Mustang Trek</h3>
+							</a>
+						</div>
+					</main>
+					<div class="pricing">
+						<span><i class="fa-solid fa-tags"></i>$2299</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
 
 <!-- --------------Venture Start---------------->
 <section class="venture">
 	<div class="container">
 		<div class="venture-title">
-			<h3>SHIKHAR <strong>ADVENTURE</strong></h3>
 			<span class="en-title">Our Best Sellers</span>
 		</div>
 		<div class="row">
-			<div class="col-md-6">
-				<div class="vt-card">
-					<a href="#" class="vt-image">
-						<img class="image" src="images/featured-2.jpg" alt="Mt Fishtail" />
-					</a>
-					<main class="main-content">
-						<div class="flex-row">
-							<div class="coin-base">
-								<span>Duration:</span>
-								<h2>10 Days</h2>
-							</div>
-						</div>
-						<h1>Ghorepani Poohill Trek</h1>
-					</main>
-					<div class="vt-more">
-						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
-					</div>
-					<div class="cost">
-						<span><strong>$</strong> 695</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="vt-card">
-					<a href="#" class="vt-image">
-						<img class="image" src="images/featured-3.jpg" alt="Mt Fishtail" />
-					</a>
-					<main class="main-content">
-						<div class="flex-row">
-							<div class="coin-base">
-								<span>Duration:</span>
-								<h2>9 Days</h2>
-							</div>
-						</div>
-						<h1>Mardi Himal Trek</h1>
-					</main>
-					<div class="vt-more">
-						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
-					</div>
-					<div class="cost">
-						<span><strong>$</strong> 749</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-lg-6 col-xl-4">
 				<div class="vt-card">
 					<a href="#" class="vt-image">
 						<img class="image" src="images/featured-4.jpg" alt="Mt Fishtail" />
@@ -150,7 +192,7 @@ include('navbar.php');
 								<h2>14 Days</h2>
 							</div>
 						</div>
-						<h1>Everest Base Cap Trek</h1>
+						<h1>Everest Base Camp Trek</h1>
 					</main>
 					<div class="vt-more">
 						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
@@ -160,7 +202,7 @@ include('navbar.php');
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-lg-6 col-xl-4">
 				<div class="vt-card">
 					<a href="abc.php" class="vt-image">
 						<img class="image" src="images/featured-5.jpg" alt="Mt Fishtail" />
@@ -182,6 +224,96 @@ include('navbar.php');
 					</div>
 				</div>
 			</div>
+			<div class="col-md-6 col-lg-6 col-xl-4">
+				<div class="vt-card">
+					<a href="#" class="vt-image">
+						<img class="image" src="images/gokyo.jpg" alt="Mt Fishtail" />
+					</a>
+					<main class="main-content">
+						<div class="flex-row">
+							<div class="coin-base">
+								<span>Duration:</span>
+								<h2>16 Days</h2>
+							</div>
+						</div>
+						<h1>Gokyo Valley Trek</h1>
+					</main>
+					<div class="vt-more">
+						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
+					</div>
+					<div class="cost">
+						<span><strong>$</strong> 1749</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-6 col-xl-4">
+				<div class="vt-card">
+					<a href="#" class="vt-image">
+						<img class="image" src="images/featured-2.jpg" alt="Mt Fishtail" />
+					</a>
+					<main class="main-content">
+						<div class="flex-row">
+							<div class="coin-base">
+								<span>Duration:</span>
+								<h2>10 Days</h2>
+							</div>
+						</div>
+						<h1>Ghorepani Poohill Trek</h1>
+					</main>
+					<div class="vt-more">
+						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
+					</div>
+					<div class="cost">
+						<span><strong>$</strong> 695</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-6 col-xl-4">
+				<div class="vt-card">
+					<a href="#" class="vt-image">
+						<img class="image" src="images/langtang.jpg" alt="Mt Fishtail" />
+					</a>
+					<main class="main-content">
+						<div class="flex-row">
+							<div class="coin-base">
+								<span>Duration:</span>
+								<h2>10 Days</h2>
+							</div>
+						</div>
+						<h1>Langtang Valley Trek</h1>
+					</main>
+					<div class="vt-more">
+						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
+					</div>
+					<div class="cost">
+						<span><strong>$</strong> 795</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-6 col-xl-4">
+				<div class="vt-card">
+					<a href="#" class="vt-image">
+						<img class="image" src="images/manaslu.jpg" alt="Mt Fishtail" />
+					</a>
+					<main class="main-content">
+						<div class="flex-row">
+							<div class="coin-base">
+								<span>Duration:</span>
+								<h2>16 Days</h2>
+							</div>
+						</div>
+						<h1>Manaslu Circuit Trek</h1>
+					</main>
+					<div class="vt-more">
+						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
+					</div>
+					<div class="cost">
+						<span><strong>$</strong> 1550</span>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 </section>
@@ -204,9 +336,7 @@ include('navbar.php');
 <section class="my-intro">
 	<div class="container">
 		<div class="wl-title"><span class="my-title">Welcome To</span>
-			<!-- <span class="sh-title">
-				Shikhar Adventure
-			</span> -->
+
 			<span class="sh-title">Outdoor Activities in Nepal, Tibet and Bhutan</span>
 		</div>
 		<div class="row">
@@ -241,7 +371,7 @@ include('navbar.php');
 </section>
 
 <!--* ==========================Top Destinaitons======================================= -->
-<section class="top-box">
+<!-- <section class="top-box">
 	<div class="container">
 		<div class="top-title">
 			<span class="title">Top <Strong>Destinations</Strong></span>
@@ -273,7 +403,8 @@ include('navbar.php');
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
+
 
 
 <!--NEW TESTI-->
@@ -391,55 +522,131 @@ include('navbar.php');
 <!--Featured Trips-->
 <section class="featured">
 	<div class="container">
-		<div class="title-box">
-			<span class="title">Featured <strong>Ventures</strong></span>
-		</div>
-		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-sm-12">
-				<div class="ft-container">
-					<a href="#" class="ft-img">
-						<img class="image" src="images/upper.jpg" alt="Mt Fishtail" />
-					</a>
-					<div class="content">
-						<div class="ft-detail">
-							<div class="price">
-								<i class="fa-solid fa-tags"></i>
-								<span>$1735</span>
-							</div>
-							<div class="time">
-								<i class="fa-solid fa-calendar-days"></i>
-								<span>10 Days</span>
-							</div>
-						</div>
-						<span class="title">Upper Mustang Trek</span>
-						<div class="learn-more"><a href="" class="">Explore Package <i class="fa-solid fa-arrow-right"></i></a></div>
-					</div>
-				</div>
+		<div class="title-box"><span>Featured Trips</span></div>
+		<section id="demos">
+			<div class="row">
 
-			</div>
-			<div class="col-xl-6 col-lg-6 col-sm-12">
-				<div class="ft-container">
-					<a href="#" class="ft-img">
-						<img class="image" src="images/featured-6.jpg" alt="Mt Fishtail" />
-					</a>
-					<div class="content">
-						<div class="ft-detail">
-							<div class="price">
-								<i class="fa-solid fa-tags"></i>
-								<span>$8999</span>
-							</div>
-							<div class="time">
-								<i class="fa-solid fa-calendar-days"></i>
-								<span>14 Days</span>
-							</div>
-						</div>
-						<span class="title">Marriage in Everest Base Camp</span>
-						<div class="learn-more"><a href="" class="">Explore Package <i class="fa-solid fa-arrow-right"></i></a></div>
-					</div>
-				</div>
+				<div class="owl-carousel owl-theme">
 
+
+					<div class="item">
+						<a class="ft-image" href=""> <img src="images/marriage.jpg" alt="" class="trek-thumb" />
+						</a>
+						<main class="ft-detail">
+							<div class="duration-grade">
+								<div class="dt-box">
+									<span class="trip-duration"><i class="fa-solid fa-calendar-days"></i></span>
+									<h4>9 Days</h4>
+								</div>
+								<div class="trip-grade"><span class="trip-chart"><i class="fa-solid fa-tags"></i></span>
+									<h4>8999</h4>
+								</div>
+							</div>
+							<div class="title">
+								<a href="">
+									<h3> Marriage in Everest Base Camp
+									</h3>
+								</a>
+							</div>
+						</main>
+
+					</div>
+					<div class="item">
+						<a class="ft-image" href=""> <img src="images/tiji.jpg" alt="" class="trek-thumb" />
+						</a>
+						<main class="ft-detail">
+							<div class="duration-grade">
+								<div class="dt-box">
+									<span class="trip-duration"><i class="fa-solid fa-calendar-days"></i></span>
+									<h4>13 Days</h4>
+								</div>
+								<div class="trip-grade"><span class="trip-chart"><i class="fa-solid fa-tags"></i></span>
+									<h4>2655</h4>
+								</div>
+							</div>
+							<div class="title">
+								<a href="">
+									<h3>Tiji Festival Trek
+									</h3>
+								</a>
+							</div>
+						</main>
+
+					</div>
+					<div class="item">
+						<a class="ft-image" href=""> <img src="images/luxury.jpg" alt="" class="trek-thumb" />
+						</a>
+						<main class="ft-detail">
+							<div class="duration-grade">
+								<div class="dt-box">
+									<span class="trip-duration"><i class="fa-solid fa-calendar-days"></i></span>
+									<h4>12 Days</h4>
+								</div>
+								<div class="trip-grade"><span class="trip-chart"><i class="fa-solid fa-tags"></i></span>
+									<h4>$3699</h4>
+								</div>
+							</div>
+							<div class="title">
+								<a href="">
+									<h3>Everest Luxury Trek</h3>
+								</a>
+							</div>
+						</main>
+
+
+					</div>
+
+					<div class="item">
+						<a class="ft-image" href=""> <img src="images/tilicho-lake.jpg" alt="" class="trek-thumb" />
+						</a>
+						<main class="ft-detail">
+							<div class="duration-grade">
+								<div class="dt-box">
+									<span class="trip-duration"><i class="fa-solid fa-calendar-days"></i></span>
+									<h4>17 Days</h4>
+								</div>
+								<div class="trip-grade"><span class="trip-chart"><i class="fa-solid fa-tags"></i></span>
+									<h4>1455</h4>
+								</div>
+							</div>
+							<div class="title">
+								<a href="">
+									<h3>Tilicho Lake Trekking
+									</h3>
+								</a>
+							</div>
+						</main>
+
+
+					</div>
+
+					<div class="item">
+						<a class="ft-image" href=""> <img src="images/phoksundo.jpg" alt="" class="trek-thumb" />
+						</a>
+						<main class="ft-detail">
+							<div class="duration-grade">
+								<div class="dt-box">
+									<span class="trip-duration"><i class="fa-solid fa-calendar-days"></i></span>
+									<h4>18 Days</h4>
+								</div>
+								<div class="trip-grade"><span class="trip-chart"><i class="fa-solid fa-tags"></i></span>
+									<h4>1985</h4>
+								</div>
+							</div>
+							<div class="title">
+								<a href="">
+									<h3>Shey Phoksundo Trek
+									</h3>
+								</a>
+							</div>
+						</main>
+
+					</div>
+
+
+				</div>
 			</div>
-		</div>
+		</section>
 	</div>
 </section>
 <!--Featureds Trip End-->
@@ -447,22 +654,18 @@ include('navbar.php');
 <!-- E-NEWSLETTER -->
 <section class="e-news">
 	<div class="container">
-		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-sm-12">
-				<div class="e-text">
-					<span class="e-title">Stay Updated</span>
-					<p class="e-body">Never miss out on exciting updates—subscribe to our e-newsletter today!</p>
-				</div>
-			</div>
-			<div class="col-xl-6 col-lg-6 col-sm-12">
-				<div class="e-form">
-					<form action="" method="post">
-						<input type="email" name="" id="" placeholder="Enter your e-mail here!">
-						<button type="submit"><span><i class="fa-regular fa-envelope"></i> Subscribe</span></button>
-					</form>
-				</div>
-			</div>
+		<div class="e-text">
+			<span class="e-title">Let's Stay in Touch</span>
+			<p class="e-body">Never miss out on exciting updates—subscribe to our e-newsletter today!</p>
 		</div>
+		<div class="e-form">
+			<form action="" method="post">
+				<input type="email" name="" id="" placeholder="Enter your e-mail here!">
+				<button type="submit"><span><i class="fa-solid fa-paper-plane"></i> Subscribe</span></button>
+			</form>
+		</div>
+
+
 	</div>
 </section>
 <!-- Recent Post Start -->
@@ -483,7 +686,6 @@ include('navbar.php');
 						<span class="title">
 							Hidden gem in the Annapurna region
 						</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, corporis!</p>
 					</div>
 					<div class="more">
 						<span class="tag">May 11, 2023</span>
@@ -501,7 +703,6 @@ include('navbar.php');
 						<span class="title">
 							Lost into the serenety of Mardi Himal
 						</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, illo?</p>
 					</div>
 					<div class="more">
 						<span class="tag">April 29, 2023</span>
@@ -519,7 +720,6 @@ include('navbar.php');
 						<span class="title">
 							Everest Base Camp Trek Guide
 						</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, obcaecati?</p>
 					</div>
 					<div class="more">
 						<span class="tag">April 19, 2023</span>

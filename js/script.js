@@ -62,42 +62,32 @@ document.addEventListener("click", (e) => {
   }
 });
 
-// Get the elements
-const searchIcon = document.querySelector(".fa-magnifying-glass");
-const searchButton = document.getElementById("search-button");
-const searchContainer = document.getElementById("search-container");
-const searchBar = document.getElementById("search-bar");
+// // Get the elements
+// const searchIcon = document.querySelector(".fa-magnifying-glass");
+// const searchButton = document.getElementById("search-button");
+// const searchContainer = document.getElementById("search-container");
+// const searchBar = document.getElementById("search-bar");
 
-// Toggle the search bar when the button is clicked
-searchButton.addEventListener("click", function () {
-  searchContainer.classList.toggle("hidden-search-bar");
-  searchIcon.classList.toggle("fa-xmark");
+// // Toggle the search bar when the button is clicked
+// searchButton.addEventListener("click", function () {
+//   searchContainer.classList.toggle("hidden-search-bar");
+//   searchIcon.classList.toggle("fa-xmark");
 
-  searchBar.focus();
-});
+//   searchBar.focus();
+// });
 
-// Close the search bar when the user clicks outside
-document.addEventListener("click", function (event) {
-  const isClickInside =
-    searchContainer.contains(event.target) ||
-    searchButton.contains(event.target);
-  if (!isClickInside) {
-    searchIcon.classList.remove("fa-xmark");
-    searchIcon.classList.add("fa-magnifying-glass");
+// // Close the search bar when the user clicks outside
+// document.addEventListener("click", function (event) {
+//   const isClickInside =
+//     searchContainer.contains(event.target) ||
+//     searchButton.contains(event.target);
+//   if (!isClickInside) {
+//     searchIcon.classList.remove("fa-xmark");
+//     searchIcon.classList.add("fa-magnifying-glass");
 
-    searchContainer.classList.add("hidden-search-bar");
-  }
-});
-
-const cookie = document.querySelector(".cross-item");
-const cookiePop = document.querySelector(".cookie-pop");
-const allow = document.querySelector(".allow-cookie");
-allow.addEventListener("click", function () {
-  cookiePop.classList.add("hide");
-});
-cookie.addEventListener("click", function () {
-  cookiePop.classList.add("hide");
-});
+//     searchContainer.classList.add("hidden-search-bar");
+//   }
+// });
 
 new Splide(".splide", {
   type: "fade",
@@ -174,8 +164,63 @@ let calcScrollValue = () => {
   scrollProgress.addEventListener("click", () => {
     document.documentElement.scrollTop = 0;
   });
-  scrollProgress.style.background = `conic-gradient(#0a73be ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+  scrollProgress.style.background = `conic-gradient(#034bf1 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
 };
 
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
+
+const cookieBox = document.querySelector(".cookie-wrapper"),
+  buttons = document.querySelectorAll(".cookie-button");
+
+const executeCodes = () => {
+  //if cookie contains codinglab it will be returned and below of this code will not run
+  if (document.cookie.includes("Shikhar Adventure")) return;
+  cookieBox.classList.add("show");
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      cookieBox.classList.remove("show");
+
+      //if button has acceptBtn id
+      if (button.id == "acceptBtn") {
+        //set cookies for 1 month. 60 = 1 min, 60 = 1 hours, 24 = 1 day, 30 = 30 days
+        document.cookie =
+          "cookieBy=Shikhar Adventure; max-age=" + 60 * 60 * 24 * 30;
+      }
+    });
+  });
+};
+
+//executeCodes function will be called on webpage load
+window.addEventListener("load", executeCodes);
+
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    navText: [
+      "<a class='btn prev-caro'><i class='fa fa-angle-left' aria-hidden='true'></i></a>",
+      "<a class='btn next-caro'><i class='fa fa-angle-right' aria-hidden='true'></i></a>",
+    ],
+
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+      },
+      769: {
+        items: 2,
+        nav: true,
+      },
+      1200: {
+        items: 3,
+        nav: true,
+        loop: true,
+        margin: 10,
+      },
+    },
+  });
+
+});

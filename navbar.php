@@ -6,7 +6,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li class="dropdown">
 
-                    <a class="dropped" href="#">Nepal<span class="fa-solid fa-chevron-down"></span></a>
+                    <a class="dropped" href="#">Nepal<i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-submenu">
                             <a class="sub-dropped" href="#">Best Sellings<span class="fa-solid fa-chevron-right"></span></a>
@@ -37,7 +37,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropped" href="#">Tibet<span class="fa-solid fa-chevron-down"></span></a>
+                    <a class="dropped" href="#">Tibet<i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu no-Sub-dropdown">
                         <li><a href="#">Tibet Tour</a></li>
                         <li><a href="#">Kailash Manosarovar Tour</a></li>
@@ -45,13 +45,13 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropped" href="#">Bhutan<span class="fa-solid fa-chevron-down"></span></a>
+                    <a class="dropped" href="#">Bhutan<i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu no-Sub-dropdown">
                         <li><a href="#">Bhutan Explore Tour</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropped" href="#">Trekking In Nepal<span class="fa-solid fa-chevron-down"></span></a>
+                    <a class="dropped" href="#">Trekking In Nepal<i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-submenu">
                             <a href="#">Everest Trekking<span class="fa-solid fa-chevron-right"></span></a>
@@ -87,7 +87,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropped" href="#">Travel Info<span class="fa-solid fa-chevron-down"></span></a>
+                    <a class="dropped" href="#">Travel Info<i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu no-Sub-dropdown">
                         <li><a href="#">Nepal Visa</a></li>
                         <li><a href="#">Trip Grade</a></li>
@@ -97,23 +97,25 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropped" href="#">About Us<span class="fa-solid fa-chevron-down"></span></a>
+                    <a class="dropped" href="#">About Us<i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu no-Sub-dropdown">
-                        <li><a href="#">Our Team</a></li>
                         <li><a href="#">Read Reviews</a></li>
                         <li><a href="#">Terms and Conditions</a></li>
                         <li><a href="#">How to Book a Trip</a></li>
                         <li><a href="#">Legal Documents</a></li>
                     </ul>
                 </li>
+
                 <li><a href="#">Blog</a></li>
-                <button class="search-toggle" id="search-button"><span class="fa-solid fa-magnifying-glass"></span></button>
-                <div id="search-container" class="search-box hidden-search-bar">
+                <!-- <li><a href="#">Contact Us</a></li> -->
+
+                <!-- <div class="search-toggle" id="search-button">
                     <form id="form">
                         <input type="search" id="search-bar" name="q" placeholder="Trip Search...">
                         <button><span class="fa-solid fa-magnifying-glass"></span></button>
                     </form>
-                </div>
+                </div> -->
+
             </ul>
 
         </div>
