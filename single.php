@@ -3,6 +3,9 @@ include('header.php');
 include('navbar.php');
 ?>
 
+<div class="trip-banner">
+    <img src="images/banner-ebc.jpg" alt="">
+</div>
 
 <main class="voyage-box">
     <div class="container">
@@ -17,12 +20,6 @@ include('navbar.php');
             </ol>
         </div>
     </div>
-    <div class="container">
-        <div class="img-box"><img src="images/everest-2.jpg" alt=""></div>
-    </div>
-
-
-
     <section class="trip-fact-price">
         <div class="container">
             <div class="row">

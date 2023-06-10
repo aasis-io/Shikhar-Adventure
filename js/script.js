@@ -1,5 +1,5 @@
 document.addEventListener("click", function (event) {
-  var dropdowns = document.querySelectorAll(".dropdown.active");
+  var dropdowns = document.querySelectorAll(".nav-list > li.dropdown.active");
   for (var i = 0; i < dropdowns.length; i++) {
     if (!dropdowns[i].contains(event.target)) {
       dropdowns[i].classList.remove("active");
@@ -7,14 +7,16 @@ document.addEventListener("click", function (event) {
   }
 });
 
-var dropdownToggle = document.querySelectorAll(".dropdown > a");
+var dropdownToggle = document.querySelectorAll(".nav-list > li.dropdown > a");
 for (var i = 0; i < dropdownToggle.length; i++) {
   dropdownToggle[i].addEventListener("click", function (event) {
     var dropdown = this.parentNode;
     if (dropdown.classList.contains("active")) {
       dropdown.classList.remove("active");
     } else {
-      var activeDropdowns = document.querySelectorAll(".dropdown.active");
+      var activeDropdowns = document.querySelectorAll(
+        ".nav-list > li.dropdown.active"
+      );
       for (var j = 0; j < activeDropdowns.length; j++) {
         activeDropdowns[j].classList.remove("active");
       }
@@ -24,20 +26,22 @@ for (var i = 0; i < dropdownToggle.length; i++) {
   });
 }
 
-var dropdownSubmenuToggle = document.querySelectorAll(".dropdown-submenu > a");
+var dropdownSubmenuToggle = document.querySelectorAll(
+  ".drop-mega > .dropdown-menu > li > a"
+);
 for (var i = 0; i < dropdownSubmenuToggle.length; i++) {
   dropdownSubmenuToggle[i].addEventListener("click", function (event) {
     var dropdownSubmenu = this.parentNode;
-    if (dropdownSubmenu.classList.contains("active")) {
-      dropdownSubmenu.classList.remove("active");
+    if (dropdownSubmenu.classList.contains("level-active")) {
+      dropdownSubmenu.classList.remove("level-active");
     } else {
       var activeDropdownSubmenus = document.querySelectorAll(
-        ".dropdown-submenu.active"
+        ".drop-mega > .dropdown-menu > li.level-active"
       );
       for (var j = 0; j < activeDropdownSubmenus.length; j++) {
-        activeDropdownSubmenus[j].classList.remove("active");
+        activeDropdownSubmenus[j].classList.remove("level-active");
       }
-      dropdownSubmenu.classList.add("active");
+      dropdownSubmenu.classList.add("level-active");
     }
     event.preventDefault();
   });
@@ -131,9 +135,9 @@ const swiperT = new Swiper(".swiperTest", {
   autoHeight: true,
   loop: true,
 
-  autoplay: {
-    delay: 5000,
-  },
+  // autoplay: {
+  //   delay: 5000,
+  // },
 
   pagination: {
     el: ".swiper-pagination2",
@@ -222,5 +226,4 @@ $(document).ready(function () {
       },
     },
   });
-
 });

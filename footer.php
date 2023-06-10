@@ -82,7 +82,7 @@
         <button class="cookie-button" id="declineBtn">Decline</button>
     </div>
 </div>
-
+</div>
 
 <!--   *****   JS Link   *****   -->
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>

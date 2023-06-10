@@ -4,9 +4,13 @@ include('navbar.php');
 ?>
 
 
+<div class="trip-banner">
+    <img src="images/abc-banner.jpg" alt="">
+</div>
+
 <main class="voyage-box">
     <div class="container">
-        <div class="title">
+        <div class="trip-title">
             <span class="th-title">Annapurna Base Camp Trek</span>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
@@ -17,10 +21,124 @@ include('navbar.php');
             </ol>
         </div>
 
-        <div class="img-box"><img src="images/abc.jpg" alt="">
-            <div class="quote"><span><strong>$</strong> 1,080</span></div>
-        </div>
 
+        <section class="trip-fact-price">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                        <div class="package-bound package-intro">
+                            <aside class="package-facts">
+                                <ul>
+                                    <li>
+                                        <div class="item">
+                                            <div class="icon">
+                                                <img src="images/icon/placeholder.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h6 class="info-title">Destination</h6>
+                                                <h5 class="info">Nepal</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="icon">
+                                                <img src="images/icon/day.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h6 class="info-title">Durations</h6>
+                                                <h5 class="info">14 days</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="icon">
+                                                <img src="images/icon/bar-chart.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h6 class="info-title">Trip Grade</h6>
+                                                <h5 class="info">Moderate</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="icon">
+                                                <img src="images/icon/altitude.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h6 class="info-title">Max Elevation</h6>
+                                                <h5 class="info">4,130 Meters</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="icon">
+                                                <img src="images/icon/hotel.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h6 class="info-title">Accommodation</h6>
+                                                <h5 class="info">Hotel/Guesthouse</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="icon">
+                                                <img src="images/icon/restaurant.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h6 class="info-title">Meals</h6>
+                                                <h5 class="info">B.L.D</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="icon">
+                                                <img src="images/icon/user.png" alt="">
+                                            </div>
+                                            <div class="text">
+                                                <h6 class="info-title">Group Size</h6>
+                                                <h5 class="info">Min. 1 Pax</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <img src="images/icon/seasons.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h6 class="info-title">Best Time</h6>
+                                            <h5 class="info">March - May &amp; Sept - Dec</h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="price-box">
+                            <div class="price-tag">
+                                <span class="pr-title">Price:</span>
+                                <sup>$</sup>
+                                <strong>
+                                    1,495
+                                </strong>
+                            </div>
+                            <div class="book-btn">
+                                <ul class="cta-items">
+                                    <li class="book"><a href="">Book This Trip <i class="fa-solid fa-arrow-right"></i></a></li>
+                                    <li class="custom"><a href="">Customize Trip <i class="fa-solid fa-arrow-right"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div class="row">
             <div class="col-lg-8 scrollable-content">
@@ -87,13 +205,13 @@ include('navbar.php');
                         <h3 class="title">Itinerary</h3>
                     </div>
                     <div class="inner-wrap">
-                        <div class="expand-all"><button class="toggleItinerary">Expand All</button></div>
                         <div class="itinerary-group">
                             <div class="itinerary-main" id="accordion" aria-multiselectable="true">
                                 <div class="itinerary">
                                     <div class="head-it"><a id="tg-it" class="collapse" data-toggle="collapse" href="#collapse1" aria-expanded="true">
-                                            <span>Day 01: </span>
-                                            Arrive at Tribhuvan International airport (1345m). </a>
+                                            <h4><span>Day 01: </span>
+                                                Arrive at Tribhuvan International airport (1345m). </h4>
+                                        </a>
                                     </div>
                                     <div id="collapse1" class="itinerary-collapse collapse show" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -104,9 +222,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse2">
-                                            <span>Day 02: </span>
-                                            Pre-trip Meeting and Sightseeing around
-                                            Kathmandu valley. </a>
+                                            <h4> <span>Day 02: </span>
+                                                Pre-trip Meeting and Sightseeing around
+                                                Kathmandu valley.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse2" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -119,8 +238,9 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse3">
-                                            <span>Day 03: </span>
-                                            Drive to Pokhara (820m) about 6 hours. </a>
+                                            <h4><span>Day 03: </span>
+                                                Drive to Pokhara (820m) about 6 hours. </h4>
+                                        </a>
                                     </div>
                                     <div id="collapse3" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -133,9 +253,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse4">
-                                            <span>Day 04: </span>
-                                            Drive to Nayapul about 1 hour and trek
-                                            to Tikhedhunga (1540 meters) about 4 hours. </a>
+                                            <h4><span>Day 04: </span>
+                                                Drive to Nayapul about 1 hour and trek
+                                                to Tikhedhunga (1540 meters) about 4 hours. </h4>
+                                        </a>
                                     </div>
                                     <div id="collapse4" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -147,9 +268,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse5">
-                                            <span>Day 05: </span>
-                                            Trek to Ghorepani (2860 meters) about 6
-                                            hours. </a>
+                                            <h4> <span>Day 05: </span>
+                                                Trek to Ghorepani (2860 meters) about 6
+                                                hours.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse5" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -163,9 +285,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse6">
-                                            <span>Day 06: </span>
-                                            Early morning Hike to Poonhill
-                                            (3210meters) and Trek to Tadapani (2630 meters) about 7 hours. </a>
+                                            <h4> <span>Day 06: </span>
+                                                Early morning Hike to Poonhill
+                                                (3210meters) and Trek to Tadapani (2630 meters) about 7 hours.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse6" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -179,9 +302,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse7">
-                                            <span>Day 07: </span>
-                                            Trek to Chhumrung (2170 meters) about 5
-                                            hours. </a>
+                                            <h4> <span>Day 07: </span>
+                                                Trek to Chhumrung (2170 meters) about 5
+                                                hours.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse7" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -194,9 +318,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse8">
-                                            <span>Day 08: </span>
-                                            Trek to Himalaya Hotel (2920meters).
-                                            About 6 hours. </a>
+                                            <h4><span>Day 08: </span>
+                                                Trek to Himalaya Hotel (2920meters).
+                                                About 6 hours.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse8" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -210,9 +335,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse9">
-                                            <span>Day 09: </span>
-                                            Trek to Annapurna Base Camp (4130
-                                            meters). About 5 hours. </a>
+                                            <h4> <span>Day 09: </span>
+                                                Trek to Annapurna Base Camp (4130
+                                                meters). About 5 hours.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse9" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -226,9 +352,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse10">
-                                            <span>Day 10: </span>
-                                            Trek down to Sinwa (2360 meters). About
-                                            7 hours. </a>
+                                            <h4> <span>Day 10: </span>
+                                                Trek down to Sinwa (2360 meters). About
+                                                7 hours.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse10" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -241,9 +368,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse11">
-                                            <span>Day 11: </span>
-                                            Trek back to Jhinu Hot Spring (1780
-                                            meters) About 4 hours. </a>
+                                            <h4> <span>Day 11: </span>
+                                                Trek back to Jhinu Hot Spring (1780
+                                                meters) About 4 hours.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse11" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -256,9 +384,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse12">
-                                            <span>Day 12: </span>
-                                            Trek to Nayapul. About 6 hours. Drive
-                                            back to Pokhara. </a>
+                                            <h4> <span>Day 12: </span>
+                                                Trek to Nayapul. About 6 hours. Drive
+                                                back to Pokhara.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse12" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -271,9 +400,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse13">
-                                            <span>Day 13: </span>
-                                            Drive back to Kathmandu. (can fly back
-                                            if required) </a>
+                                            <h4> <span>Day 13: </span>
+                                                Drive back to Kathmandu. (can fly back
+                                                if required)</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse13" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -286,9 +416,10 @@ include('navbar.php');
                                 </div>
                                 <div class="itinerary">
                                     <div class="head-it"><a class="collapse" data-toggle="collapse" href="#collapse14">
-                                            <span>Day 14: </span>
-                                            Transfer to the international airport
-                                            for your onward destination. </a>
+                                            <h4> <span>Day 14: </span>
+                                                Transfer to the international airport
+                                                for your onward destination.</h4>
+                                        </a>
                                     </div>
                                     <div id="collapse14" class="itinerary-collapse collapse" data-parent="#accordion">
                                         <div class="itinerary-body">
@@ -339,7 +470,7 @@ include('navbar.php');
                         </div>
                         <div class="cost-exc">
                             <div class="exc-title">
-                                <h3 class="title">Cost Includes</h3>
+                                <h3 class="title">Cost Excludes</h3>
                             </div>
                             <div class="exc-list">
                                 <ul>
@@ -429,7 +560,7 @@ include('navbar.php');
 
 
 
-            <div class="col-lg-4 page-right fixed-content">
+            <!-- <div class="col-lg-4 page-right fixed-content">
                 <section class="trip-info">
                     <h3>Trip information</h3>
                     <ul>
@@ -542,7 +673,7 @@ include('navbar.php');
                         </div>
                     </div>
                 </section>
-            </div>
+            </div> -->
         </div>
     </div>
 </main>

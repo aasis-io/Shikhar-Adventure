@@ -22,6 +22,28 @@ include('navbar.php');
 		<div class="splide__track">
 			<ul class="splide__list">
 				<li class="splide__slide">
+					<img src="images/banner/banner-abc.jpg" alt="">
+					<div class="image-data">
+						<div class="container">
+							<div class="img-data-wrapper">
+								<span class="pack-quote">Into the Heart of Himalayas</span>
+								<h2 class="pack-title">Annapurna Base Camp Trek</h2>
+								<a href="abc.php" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="splide__slide">
+					<img src="images/banner-ebc.jpg" alt="">
+					<div class="image-data">
+						<div class="container">
+							<span class="pack-quote">Trek to the foot of Mt. Everest</span>
+							<h2 class="pack-title">Everest Base Camp Trek</h2>
+							<a href="single.php" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="splide__slide">
 					<img src="images/banner/banner-mardi.jpg" alt="">
 					<div class="image-data">
 						<div class="container">
@@ -30,53 +52,12 @@ include('navbar.php');
 							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
 						</div>
 					</div>
-
 				</li>
-				<li class="splide__slide">
-					<img src="images/banner/banner-ebc.jpg" alt="">
-					<div class="image-data">
-						<div class="container">
-							<span class="pack-quote">Trek to the foot of Mt. Everest</span>
-							<h2 class="pack-title">Everest Base Camp Trek</h2>
-							<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</li>
-
-				<li class="splide__slide">
-					<img src="images/banner/banner-abc.jpg" alt="">
-					<div class="image-data">
-						<div class="container">
-							<div class="img-data-wrapper">
-								<span class="pack-quote">Into the Heart of Himalayas</span>
-								<h2 class="pack-title">Annapurna Base Camp Trek</h2>
-								<a href="" class="trip-detail-btn">In Detail <i class="fa-solid fa-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</li>
-
-
-
-
 			</ul>
 		</div>
 	</div>
 </section>
-<!-- <div class="carousel-wrapper">
-	<div class="carousel">
-		<img src="images/ebc-banner.jpg" alt="" />
 
-		<div class="carousel-data">
-			<div class="container">
-				<span class="trip-quote">Leave Footprints on the Roof of the World!</span>
-				<h3>Everest Base Camp Trek</h3>
-				<a href="" class="learn-more">In Detail <i class="fa-solid fa-arrow-right"></i></a>
-			</div>
-		</div>
-
-	</div>
-</div> -->
 
 <!-- Search Container ----- -->
 
@@ -186,6 +167,7 @@ include('navbar.php');
 						<img class="image" src="images/featured-4.jpg" alt="Mt Fishtail" />
 					</a>
 					<main class="main-content">
+
 						<div class="flex-row">
 							<div class="coin-base">
 								<span>Duration:</span>
@@ -193,6 +175,7 @@ include('navbar.php');
 							</div>
 						</div>
 						<h1>Everest Base Camp Trek</h1>
+
 					</main>
 					<div class="vt-more">
 						<a href="#" class="learn-more">Trip Details<i class="fa-solid fa-arrow-right"></i></a>
@@ -325,7 +308,7 @@ include('navbar.php');
 	<div class="container">
 		<h3>Customize Your Trip</h3>
 		<p>Tell us your estimated holiday time, budget, travel style etc, We will design awesome customized trip for you.</p>
-		<a href="#" class="btn btn-warning">Start Now<i class="fa-solid fa-arrow-right"></i></a>
+		<a href="#" class="start-btn">Start Now<i class="fa-solid fa-arrow-right"></i></a>
 	</div>
 </div>
 
@@ -423,6 +406,7 @@ include('navbar.php');
 								<img src="images/profile-1.jpg" alt="" />
 							</div>
 							<div class="aside">
+								<span class="rev-title">Awesome Experience</span>
 								<p>
 									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 									Magnam maxime earum in repudiandae? Corrupti porro cumque
@@ -431,6 +415,9 @@ include('navbar.php');
 								<div class="name">
 									<h4>Gigi Hadid</h4>
 									<p>Cupertino, U.S.A</p>
+								</div>
+								<div class="stars">
+									<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 								</div>
 							</div>
 						</div>
@@ -441,6 +428,8 @@ include('navbar.php');
 								<img src="images/image2.jpg" alt="" />
 							</div>
 							<div class="aside">
+								<span class="rev-title">Best Guide I've Ever Had</span>
+
 								<p>
 									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 									Magnam maxime earum in repudiandae? Corrupti porro cumque
@@ -449,6 +438,9 @@ include('navbar.php');
 								<div class="name">
 									<h4>Sarah Malik</h4>
 									<p>Texas, U.S.A</p>
+								</div>
+								<div class="stars">
+									<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 								</div>
 							</div>
 						</div>
@@ -459,6 +451,8 @@ include('navbar.php');
 								<img src="images/image3.jpg" alt="" />
 							</div>
 							<div class="aside">
+								<span class="rev-title">Great Experience</span>
+
 								<p>
 									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 									Magnam maxime earum in repudiandae? Corrupti porro cumque
@@ -467,6 +461,9 @@ include('navbar.php');
 								<div class="name">
 									<h4>Kelly Wakasa</h4>
 									<p>Sydney, Australia</p>
+								</div>
+								<div class="stars">
+									<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 								</div>
 							</div>
 						</div>
@@ -477,6 +474,8 @@ include('navbar.php');
 								<img src="images/image4.jpg" alt="" />
 							</div>
 							<div class="aside">
+								<span class="rev-title">Friendly Guides & Porters</span>
+
 								<p>
 									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 									Magnam maxime earum in repudiandae? Corrupti porro cumque
@@ -485,6 +484,9 @@ include('navbar.php');
 								<div class="name">
 									<h4>Ava Karlson</h4>
 									<p>Canberra, Australia</p>
+								</div>
+								<div class="stars">
+									<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 								</div>
 							</div>
 						</div>
@@ -495,6 +497,8 @@ include('navbar.php');
 								<img src="images/image5.jpg" alt="" />
 							</div>
 							<div class="aside">
+								<span class="rev-title">Very Concerned About Safety</span>
+
 								<p>
 									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 									Magnam maxime earum in repudiandae? Corrupti porro cumque
@@ -504,6 +508,14 @@ include('navbar.php');
 									<h4>Emma Watson</h4>
 									<p>Toronto, Canada</p>
 								</div>
+								<div class="stars">
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+									<i class="fa-solid fa-star"></i>
+								</div>
+
 							</div>
 						</div>
 					</li>
@@ -670,67 +682,102 @@ include('navbar.php');
 </section>
 <!-- Recent Post Start -->
 <section class="blog">
+
 	<div class="container">
-		<div class="blog-title">
-			<span class="title">Recent <strong>Posts</strong></span>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="blog-card">
-					<div class="blog-header">
-						<a href="" class="blog-image"><img src="images/blog-1.jpg" alt="rover" /></a>
-						<!-- <div class="overlay"> <span class="class">Trekking</span>
-						</div> -->
-					</div>
-					<div class="bl-title">
-						<span class="title">
-							Hidden gem in the Annapurna region
-						</span>
-					</div>
-					<div class="more">
-						<span class="tag">May 11, 2023</span>
-						<a href="" class="read-more">Read More</a>
-					</div>
-				</div>
+		<div class="blog-head">
+			<div class="blog-title">
+				<span>Latest <strong>Posts</strong></span>
 			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="blog-card">
-					<div class="blog-header">
-						<a href="" class="blog-image"><img src="images/blog-3.jpg" alt="rover" /></a>
+			<div class="see-more"> <a href="blog.php">Load More<i class="fa-solid fa-arrow-right"></i></a>
+			</div>
+
+
+
+
+		</div>
+		<div class="blog-wrapper">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="blog-card main">
+						<a href="" class="blog-link"><img src="images/yoga.jpg" alt=""></a>
+						<div class="blog-content">
+							<div class="entry-meta"><span>Travel Guide</span></div>
+							<a href="" class="post-title">
+								<h3>Everything you need to know about Annapurna Base Camp Trek</h3>
+							</a>
+							<div class="exit-meta"><span class="date">June 6, 2023</span></div>
+						</div>
 
 					</div>
-					<div class="bl-title">
-						<span class="title">
-							Lost into the serenety of Mardi Himal
-						</span>
-					</div>
-					<div class="more">
-						<span class="tag">April 29, 2023</span>
-						<a href="" class="read-more">Read More</a>
-					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="blog-card">
-					<div class="blog-header">
-						<a href="" class="blog-image"><img src="images/blog-4.jpg" alt="rover" /></a>
+				<div class="col-lg-4">
+					<div class="blog-card sub">
+						<div class="blog-img"> <a href="" class="blog-link"><img src="images/featured-4.jpg" alt=""></a>
+						</div>
+						<div class="blog-content">
+							<div class="entry-meta"><span>Trek Guide</span></div>
+							<a href="" class="post-title">
+								<h3>Top 10 Trekking Routes in Nepal</h3>
+							</a>
+							<div class="exit-meta"><span class="date">June 1, 2023</span></div>
+						</div>
 
 					</div>
-					<div class="bl-title">
-						<span class="title">
-							Everest Base Camp Trek Guide
-						</span>
+				</div>
+
+
+
+
+
+				<div class="col-lg-4">
+					<div class="blog-card sub">
+						<div class="blog-img"> <a href="" class="blog-link"><img src="images/blog-c.JPG" alt=""></a>
+						</div>
+						<div class="blog-content">
+							<div class="entry-meta"><span>Culture</span></div>
+							<a href="" class="post-title">
+								<h3>Drown deep into the culture of Nepal</h3>
+							</a>
+							<div class="exit-meta"><span class="date">May 30, 2023</span></div>
+						</div>
+
 					</div>
-					<div class="more">
-						<span class="tag">April 19, 2023</span>
-						<a href="" class="read-more">Read More</a>
+				</div>
+				<div class="col-lg-4">
+					<div class="blog-card sub">
+						<div class="blog-img"> <a href="" class="blog-link"><img src="images/blog-larke.JPG" alt=""></a>
+						</div>
+						<div class="blog-content">
+							<div class="entry-meta"><span>Trek Guide</span></div>
+							<a href="" class="post-title">
+								<h3>Adventure Off the bitten trails in Nepal</h3>
+							</a>
+							<div class="exit-meta"><span class="date">May 25, 2023</span></div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="blog-card sub">
+						<div class="blog-img"> <a href="" class="blog-link"><img src="images/blog-ktm.JPG" alt=""></a>
+						</div>
+						<div class="blog-content">
+							<div class="entry-meta"><span>Places to visit</span></div>
+							<a href="" class="post-title">
+								<h3>Top 10 Must visit places in Kathmandu</h3>
+							</a>
+							<div class="exit-meta"><span class="date">May 14, 2023</span></div>
+						</div>
+
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="see-more"> <a href="">Load More <i class="fa-solid fa-arrow-right"></i></a>
-		</div>
+
 	</div>
+
+
+
 </section>
 <!-- Recent Post End -->
 
